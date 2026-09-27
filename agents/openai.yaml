@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF to Markdown"
+  short_description: "本地分层 OCR 与 PDF 转 Markdown"
+  default_prompt: "Use $pdf2md to convert this PDF into reliable Markdown."

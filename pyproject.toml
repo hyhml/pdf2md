@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-ocr-router"
+version = "0.1.0"
+description = "Quality-gated PDF text extraction with RapidOCR and MinerU"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pypdf>=5,<7",
+]
+
+[project.optional-dependencies]
+light = [
+  "onnxruntime>=1.18,<2",
+  "pypdfium2>=4.30,<6",
+  "rapidocr>=3.9,<4",
+]
+dev = [
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+pdf-ocr = "pdf_ocr_router.cli:main"
+pdf2md = "pdf_ocr_router.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["src"]

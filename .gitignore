@@ -1,0 +1,11 @@
+.venv
+.venv-mineru
+.mineru
+.cache
+.bootstrap
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/

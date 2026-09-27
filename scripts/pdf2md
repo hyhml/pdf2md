@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+skill_dir="$(CDPATH= cd -- "$script_dir/.." && pwd)"
+
+if [[ -n "${PDF2MD_CLI:-}" && -x "${PDF2MD_CLI}" ]]; then
+    exec "${PDF2MD_CLI}" "$@"
+fi
+
+for candidate in \
+    "$skill_dir/.venv/bin/pdf2md" \
+    "$skill_dir/.venv/bin/pdf-ocr" \
+    "$skill_dir/.venv/Scripts/pdf2md.exe" \
+    "$skill_dir/.venv/Scripts/pdf-ocr.exe"
+do
+    if [[ -x "$candidate" ]]; then
+        exec "$candidate" "$@"
+    fi
+done
+
+printf '%s\n' \
+    "pdf2md runtime is not installed." \
+    "Run: $skill_dir/scripts/setup.sh --light" >&2
+exit 2
