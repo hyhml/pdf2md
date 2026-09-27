@@ -6,7 +6,6 @@ skill_dir="$(CDPATH= cd -- "$script_dir/.." && pwd)"
 
 install_light=false
 install_strong=false
-model_tier=""
 
 if [[ $# -eq 0 ]]; then
     install_light=true
@@ -20,23 +19,13 @@ while [[ $# -gt 0 ]]; do
         --strong)
             install_strong=true
             ;;
-        --models)
-            shift
-            if [[ $# -eq 0 || ("$1" != "basic" && "$1" != "standard") ]]; then
-                printf '%s\n' "--models requires basic or standard" >&2
-                exit 2
-            fi
-            model_tier="$1"
-            install_strong=true
-            ;;
         --all)
             install_light=true
             install_strong=true
-            model_tier="standard"
             ;;
         -h|--help)
             printf '%s\n' \
-                "Usage: setup.sh [--light] [--strong] [--models basic|standard] [--all]" \
+                "Usage: setup.sh [--light] [--strong] [--all]" \
                 "No arguments installs only the lightweight OCR runtime."
             exit 0
             ;;
@@ -67,16 +56,10 @@ if $install_light; then
 fi
 
 if $install_strong; then
-    create_environment "$skill_dir/.venv-mineru"
-    "$skill_dir/.venv-mineru/bin/pip" install "mineru>=4.0,<5"
-fi
-
-if [[ -n "$model_tier" ]]; then
-    MINERU_HOME="$skill_dir/.mineru" \
-    MODELSCOPE_CACHE="$skill_dir/.cache/modelscope" \
-    HF_HOME="$skill_dir/.cache/huggingface" \
-        "$skill_dir/.venv-mineru/bin/mineru-kit" models download \
-        --tier "$model_tier" --source modelscope
+    create_environment "$skill_dir/.venv-docling"
+    "$skill_dir/.venv-docling/bin/pip" install \
+        --index-url https://download.pytorch.org/whl/cpu torch torchvision
+    "$skill_dir/.venv-docling/bin/pip" install -e "${skill_dir}[strong]"
 fi
 
 if [[ -x "$skill_dir/.venv/bin/pdf2md" ]]; then

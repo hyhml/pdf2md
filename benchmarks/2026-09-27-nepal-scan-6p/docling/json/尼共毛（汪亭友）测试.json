@@ -1,0 +1,3703 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "\u5c3c\u5171\u6bdb\uff08\u6c6a\u4ead\u53cb\uff09\u6d4b\u8bd5",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 1704958936131809862,
+    "filename": "\u5c3c\u5171\u6bdb\uff08\u6c6a\u4ead\u53cb\uff09\u6d4b\u8bd5.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/tables/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "rich_cell_group_1_0_0",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/tables/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "rich_cell_group_2_0_0",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/tables/2"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "name": "rich_cell_group_3_0_0",
+      "label": "unspecified"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 94.71211751302083,
+            "t": 625.4484716796875,
+            "r": 260.03550211588544,
+            "b": 614.4141902669271,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u4e16\u754c\u793e\u4f1a\u4e3b\u4e49\u7814\u7a76\u4e1b\u4e66\u00b7\u7814\u7a76\u7cfb\u521773",
+      "text": "\u4e16\u754c\u793e\u4f1a\u4e3b\u4e49\u7814\u7a76\u4e1b\u4e66\u00b7\u7814\u7a76\u7cfb\u521773",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.9266103108724,
+            "t": 565.60875,
+            "r": 347.5596516927083,
+            "b": 552.8768977864584,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca\u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5\u2026\u2026\u2026\u2026\u2026",
+      "text": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca\u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5\u2026\u2026\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.79261271158855,
+            "t": 546.5109716796875,
+            "r": 367.8551025390625,
+            "b": 534.2034969075521,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u8bfe\u9898\u7684\u7814\u7a76\u4ef7\u503c\u548c\u73b0\u5b9e\u610f\u4e49\u2026\u2026\u2026\u2026\u2026\u2026",
+      "text": "\u8bfe\u9898\u7684\u7814\u7a76\u4ef7\u503c\u548c\u73b0\u5b9e\u610f\u4e49\u2026\u2026\u2026\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 69.765625,
+            "t": 526.5643977864584,
+            "r": 83.71875,
+            "b": 516.3789119466146,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u4e8c",
+      "text": "\u4e8c"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 88.79261271158855,
+            "t": 527.413193359375,
+            "r": 198.30350748697916,
+            "b": 515.9545141601562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u56fd\u5185\u5916\u7814\u7a76\u72b6\u51b5\u2026\u2026\u2026",
+      "text": "\u56fd\u5185\u5916\u7814\u7a76\u72b6\u51b5\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.07433573404948,
+            "t": 509.5885880533854,
+            "r": 245.6595662434896,
+            "b": 497.28111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "\u4e09\u672c\u8bfe\u9898\u7814\u7a76\u9075\u5faa\u7684\u539f\u5219\u4e0e\u65b9\u6cd5\u2026",
+      "text": "\u4e09\u672c\u8bfe\u9898\u7814\u7a76\u9075\u5faa\u7684\u539f\u5219\u4e0e\u65b9\u6cd5\u2026"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 389.8418375651042,
+            "t": 508.3153946940104,
+            "r": 406.3319091796875,
+            "b": 498.554306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "21",
+      "text": "21"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.9266103108724,
+            "t": 472.241806640625,
+            "r": 408.023193359375,
+            "b": 459.9343522135417,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u7ae0\u5c3c\u5171(\u6bdb)\u7684\u5386\u53f2\u7531\u6765\u53ca\u5176\u51b3\u5b9a\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u80cc\u666f\u2026\u2026\u2026\u202624",
+      "text": "\u7b2c\u4e00\u7ae0\u5c3c\u5171(\u6bdb)\u7684\u5386\u53f2\u7531\u6765\u53ca\u5176\u51b3\u5b9a\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u80cc\u666f\u2026\u2026\u2026\u202624"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 68.07433573404948,
+            "t": 453.5684261067708,
+            "r": 255.80729166666666,
+            "b": 440.8365738932292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 \u5c3c\u6cca\u5c14\u7684\u65e9\u671f\u5171\u4ea7\u4e3b\u4e49\u8fd0\u52a8\u2026",
+      "text": "\u7b2c\u4e00\u8282 \u5c3c\u6cca\u5c14\u7684\u65e9\u671f\u5171\u4ea7\u4e3b\u4e49\u8fd0\u52a8\u2026"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 67.22869364420573,
+            "t": 435.319443359375,
+            "r": 102.74573771158855,
+            "b": 422.163193359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 109.51088460286458,
+            "t": 434.8950455729167,
+            "r": 408.023193359375,
+            "b": 422.5875911458333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "\u666e\u62c9\u660c\u8fbe\u9886\u5bfc\u7684\u9769\u547d\u8fd0\u52a8\u4e0e\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u8bde\u751f\u2026\u2026\u2026\u2026\u2026\u202639",
+      "text": "\u666e\u62c9\u660c\u8fbe\u9886\u5bfc\u7684\u9769\u547d\u8fd0\u52a8\u4e0e\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u8bde\u751f\u2026\u2026\u2026\u2026\u2026\u202639"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.80586751302083,
+            "t": 416.6460628255208,
+            "r": 102.32291666666667,
+            "b": 403.0654150390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282",
+      "text": "\u7b2c\u4e09\u8282"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 109.93370564778645,
+            "t": 416.2216650390625,
+            "r": 408.023193359375,
+            "b": 403.4898128255208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "\u5df4\u7279\u62c9\u4f0a\u7684\u9769\u547d\u751f\u6daf\u53ca\u5176\u9886\u5bfc\u7684\u4eba\u6c11\u7edf\u4e00\u6218\u7ebf\u2026\u2026\u2026\u2026\u2026\u202652",
+      "text": "\u5df4\u7279\u62c9\u4f0a\u7684\u9769\u547d\u751f\u6daf\u53ca\u5176\u9886\u5bfc\u7684\u4eba\u6c11\u7edf\u4e00\u6218\u7ebf\u2026\u2026\u2026\u2026\u2026\u202652"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.80586751302083,
+            "t": 397.9726416015625,
+            "r": 103.16855875651042,
+            "b": 384.8163916015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u56db\u8282",
+      "text": "\u7b2c\u56db\u8282"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 108.66524251302083,
+            "t": 397.5482438151042,
+            "r": 328.9554850260417,
+            "b": 385.2407893880208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u5171\uff08\u6bdb\uff09\u51b3\u5b9a\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u539f\u56e0\u2026\u2026\u2026\u2026",
+      "text": "\u5c3c\u5171\uff08\u6bdb\uff09\u51b3\u5b9a\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u539f\u56e0\u2026\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.9266103108724,
+            "t": 359.3526871744792,
+            "r": 406.7547200520833,
+            "b": 348.3184261067708,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u7ae0\u5c3c\u5171(\u6bdb)\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u601d\u60f3\u7406\u8bba\u51c6\u5907\u4e0e\u6218\u7565\u7b56\u7565\u2026\u2026\u2026\u202680",
+      "text": "\u7b2c\u4e8c\u7ae0\u5c3c\u5171(\u6bdb)\u53d1\u52a8\u6b66\u88c5\u9769\u547d\u7684\u601d\u60f3\u7406\u8bba\u51c6\u5907\u4e0e\u6218\u7565\u7b56\u7565\u2026\u2026\u2026\u202680"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.80586751302083,
+            "t": 341.5281022135417,
+            "r": 296.398193359375,
+            "b": 328.79625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282\u786e\u7acb\u9a6c\u5217\u6bdb\u4e3b\u4e49\u4e3a\u515a\u7684\u6839\u672c\u6307\u5bfc\u601d\u60f3\u2026",
+      "text": "\u7b2c\u4e00\u8282\u786e\u7acb\u9a6c\u5217\u6bdb\u4e3b\u4e49\u4e3a\u515a\u7684\u6839\u672c\u6307\u5bfc\u601d\u60f3\u2026"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.38304646809895,
+            "t": 323.27911946614586,
+            "r": 105.2826639811198,
+            "b": 310.12286946614586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 108.24242146809895,
+            "t": 322.4303238932291,
+            "r": 406.3319091796875,
+            "b": 311.39606282552086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "\u65b0\u6c11\u4e3b\u4e3b\u4e49\u9769\u547d\u7684\u8def\u7ebf\u4e0e\u6b66\u88c5\u6597\u4e89\u7684\u6218\u7565\u7b56\u7565\u2026\u2026\u2026\u2026\u2026\u202690",
+      "text": "\u65b0\u6c11\u4e3b\u4e3b\u4e49\u9769\u547d\u7684\u8def\u7ebf\u4e0e\u6b66\u88c5\u6597\u4e89\u7684\u6218\u7565\u7b56\u7565\u2026\u2026\u2026\u2026\u2026\u202690"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.38304646809895,
+            "t": 304.6057389322916,
+            "r": 105.2826639811198,
+            "b": 291.4494889322916,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282",
+      "text": "\u7b2c\u4e09\u8282"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 107.3967793782552,
+            "t": 304.18134114583336,
+            "r": 291.7471516927083,
+            "b": 291.87388671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u4e89\u53d6\u5370\u5ea6\u3001RIM\u7b49\u56fd\u9645\u529b\u91cf\u7684\u652f\u6301\u2026\u2026",
+      "text": "\u4e89\u53d6\u5370\u5ea6\u3001RIM\u7b49\u56fd\u9645\u529b\u91cf\u7684\u652f\u6301\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 382.6538899739583,
+            "t": 302.90814778645836,
+            "r": 405.9090983072917,
+            "b": 292.2982438151041,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "103",
+      "text": "103"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.235321044921875,
+            "t": 267.6833349609375,
+            "r": 345.8683675130208,
+            "b": 254.5270849609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u7ae0 \u5168\u9762\u5c55\u5f00\u7684\u4eba\u6c11\u6218\u4e89\u4e0e\u201c\u666e\u62c9\u660c\u8fbe\u9053\u8def\u201d\u7684\u521d\u6b65\u786e\u7acb",
+      "text": "\u7b2c\u4e09\u7ae0 \u5168\u9762\u5c55\u5f00\u7684\u4eba\u6c11\u6218\u4e89\u4e0e\u201c\u666e\u62c9\u660c\u8fbe\u9053\u8def\u201d\u7684\u521d\u6b65\u786e\u7acb"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 350.0965983072917,
+            "t": 265.9857438151041,
+            "r": 406.7547200520833,
+            "b": 254.5270849609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u2026\u2026\u2026114",
+      "text": "\u2026\u2026\u2026114"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 66.38304646809895,
+            "t": 249.00995442708336,
+            "r": 313.73388671875,
+            "b": 235.85370442708336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282\u4eba\u6c11\u6218\u4e89\u7684\u5168\u9762\u7206\u53d1\u4e0e\u524d\u4e09\u9636\u6bb5\u884c\u52a8\u2026\u2026\u2026",
+      "text": "\u7b2c\u4e00\u8282\u4eba\u6c11\u6218\u4e89\u7684\u5168\u9762\u7206\u53d1\u4e0e\u524d\u4e09\u9636\u6bb5\u884c\u52a8\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 372.5061442057292,
+            "t": 246.88796549479162,
+            "r": 406.3319091796875,
+            "b": 236.7025,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026114",
+      "text": "\u2026114"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 270.60605875651044,
+            "t": 684.015,
+            "r": 343.7542724609375,
+            "b": 648.7902075195312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u76ee\u5f55",
+      "text": "\u76ee\u5f55",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 411.8285725911458,
+            "t": 221.42426106770836,
+            "r": 420.7078450520833,
+            "b": 209.96560221354162,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 47.356058756510414,
+            "t": 800.2992737833658,
+            "r": 303.16335042317706,
+            "b": 788.8406022135416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\u7684\u5386\u53f2\u3001\u6267\u653f\u53ca\u5176\u5b17\u53d8\u63a2\u7a76",
+      "text": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\u7684\u5386\u53f2\u3001\u6267\u653f\u53ca\u5176\u5b17\u53d8\u63a2\u7a76"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.235321044921875,
+            "t": 771.8647975667318,
+            "r": 397.0298258463542,
+            "b": 759.13294535319,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282 \u4e2d\u592e\u7b2c\u56db\u6b21\u6269\u5927\u4f1a\u8bae\u4e0e\u6218\u7565\u9632\u5fa1\u540e\u4e09\u9636\u6bb5\u884c\u52a8\u2026\u2026\u2026\u2026\u2026\u2026127",
+      "text": "\u7b2c\u4e8c\u8282 \u4e2d\u592e\u7b2c\u56db\u6b21\u6269\u5927\u4f1a\u8bae\u4e0e\u6218\u7565\u9632\u5fa1\u540e\u4e09\u9636\u6bb5\u884c\u52a8\u2026\u2026\u2026\u2026\u2026\u2026127"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.235321044921875,
+            "t": 753.6158097330729,
+            "r": 315.42519124348956,
+            "b": 739.6107641601562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282 \u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6839\u636e\u5730\u4e0e\u4eba\u6c11\u653f\u6743\u5efa\u8bbe\u2026\u2026\u2026",
+      "text": "\u7b2c\u4e09\u8282 \u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6839\u636e\u5730\u4e0e\u4eba\u6c11\u653f\u6743\u5efa\u8bbe\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 46.08759562174479,
+            "t": 700.9908097330729,
+            "r": 283.29071044921875,
+            "b": 689.5321407063802,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u56db\u7ae0 \u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6218\u7565\u8f6c\u5411\u53ca\u5c3c\u6cca\u5c14\u5b9e\u73b0\u548c\u8c08",
+      "text": "\u7b2c\u56db\u7ae0 \u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6218\u7565\u8f6c\u5411\u53ca\u5c3c\u6cca\u5c14\u5b9e\u73b0\u548c\u8c08"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 338.257568359375,
+            "t": 701.4151973470052,
+            "r": 396.1841634114583,
+            "b": 689.9565283203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u2026\u2026\u2026155",
+      "text": "\u2026\u2026\u2026155"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.65814208984375,
+            "t": 684.015,
+            "r": 293.015625,
+            "b": 671.7075354003906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 \u7b2c\u4e00\u6b21\u548c\u8c08\u4e0e\u4eba\u6c11\u6218\u4e89\u8fdb\u5165\u6218\u7565\u76f8\u6301\u2026\u2026",
+      "text": "\u7b2c\u4e00\u8282 \u7b2c\u4e00\u6b21\u548c\u8c08\u4e0e\u4eba\u6c11\u6218\u4e89\u8fdb\u5165\u6218\u7565\u76f8\u6301\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 361.0899658203125,
+            "t": 684.015,
+            "r": 396.1841634114583,
+            "b": 672.5563309733072,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026155",
+      "text": "\u2026155"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.8125,
+            "t": 667.4635880533854,
+            "r": 104.01420084635417,
+            "b": 653.0341446940104,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 96.82623291015625,
+            "t": 666.6147924804687,
+            "r": 314.15671793619794,
+            "b": 654.3073380533854,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u6b21\u548c\u8c08\u4e0e2003\u5e745\u6708\u7f57\u5c14\u5e15\u4e2d\u592e\u5168\u4f1a\u2026",
+      "text": "\u7b2c\u4e8c\u6b21\u548c\u8c08\u4e0e2003\u5e745\u6708\u7f57\u5c14\u5e15\u4e2d\u592e\u5168\u4f1a\u2026"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 372.5061442057292,
+            "t": 666.1903946940104,
+            "r": 395.3385416666667,
+            "b": 655.5805314127604,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "167",
+      "text": "167"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 650.4877783203125,
+            "r": 316.2708333333333,
+            "b": 635.2095597330729,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282\u5c3c\u5171\uff08\u6bdb)\u5ba3\u5e03\u6218\u7565\u53cd\u653b\u4e0e\u8d3e\u5357\u5fb7\u62c9\u53d1\u52a8\u653f\u53d8",
+      "text": "\u7b2c\u4e09\u8282\u5c3c\u5171\uff08\u6bdb)\u5ba3\u5e03\u6218\u7565\u53cd\u653b\u4e0e\u8d3e\u5357\u5fb7\u62c9\u53d1\u52a8\u653f\u53d8"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 365.7410074869792,
+            "t": 648.7902075195312,
+            "r": 394.4928792317708,
+            "b": 638.1803238932291,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "\u2026 181",
+      "text": "\u2026 181"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.8125,
+            "t": 632.2387955729166,
+            "r": 314.57952880859375,
+            "b": 618.23375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u56db\u8282 2005\u5e749\u6708\u6625\u90a6\u4e2d\u592e\u5168\u4f1a\u4e0e\u7b2c\u4e09\u6b21\u548c\u8c08\u7684\u5b9e\u73b0",
+      "text": "\u7b2c\u56db\u8282 2005\u5e749\u6708\u6625\u90a6\u4e2d\u592e\u5168\u4f1a\u4e0e\u7b2c\u4e09\u6b21\u548c\u8c08\u7684\u5b9e\u73b0"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 372.5061442057292,
+            "t": 630.9656022135416,
+            "r": 395.3385416666667,
+            "b": 620.3557185872396,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "192",
+      "text": "192"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 46.08759562174479,
+            "t": 597.0139827473959,
+            "r": 395.7613525390625,
+            "b": 584.7065283203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e94\u7ae02008 \u5e74\u5236\u5baa\u8bae\u4f1a\u9009\u4e3e\u4e0e\u5c3c\u5171(\u6bdb)\u9996\u5ea6\u6267\u653f\u2026\u2026\u2026\u2026\u2026\u2026\u2026213",
+      "text": "\u7b2c\u4e94\u7ae02008 \u5e74\u5236\u5baa\u8bae\u4f1a\u9009\u4e3e\u4e0e\u5c3c\u5171(\u6bdb)\u9996\u5ea6\u6267\u653f\u2026\u2026\u2026\u2026\u2026\u2026\u2026213"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 56.235321044921875,
+            "t": 579.6137955729166,
+            "r": 313.73388671875,
+            "b": 567.3063208007812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 2008\u5e74\u5c3c\u6cca\u5c14\u5927\u9009\u4e0e\u5c3c\u5171\uff08\u6bdb\uff09\u83b7\u80dc\u2026\u2026\u2026",
+      "text": "\u7b2c\u4e00\u8282 2008\u5e74\u5c3c\u6cca\u5c14\u5927\u9009\u4e0e\u5c3c\u5171\uff08\u6bdb\uff09\u83b7\u80dc\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 55.8125,
+            "t": 562.6379858398437,
+            "r": 100.20880126953125,
+            "b": 549.4817358398437,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 97.24905395507812,
+            "t": 562.2135880533854,
+            "r": 283.7135416666667,
+            "b": 549.9061336263021,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u5171\uff08\u6bdb\uff09\u80dc\u9009\u7684\u539f\u56e0\u4e0e\u65b0\u653f\u5e9c\u7684\u7ec4\u5efa",
+      "text": "\u5c3c\u5171\uff08\u6bdb\uff09\u80dc\u9009\u7684\u539f\u56e0\u4e0e\u65b0\u653f\u5e9c\u7684\u7ec4\u5efa"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 545.6621761067709,
+            "r": 395.7613525390625,
+            "b": 531.6571305338541,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282 \u65b0\u653f\u5e9c\u7684\u65bd\u653f\u63aa\u65bd\u53ca\u5176\u9762\u4e34\u7684\u5de8\u5927\u6311\u6218\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026242",
+      "text": "\u7b2c\u4e09\u8282 \u65b0\u653f\u5e9c\u7684\u65bd\u653f\u63aa\u65bd\u53ca\u5176\u9762\u4e34\u7684\u5de8\u5927\u6311\u6218\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026242"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 528.2619685872396,
+            "r": 270.60605875651044,
+            "b": 514.256943359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u56db\u8282 \u666e\u62c9\u660c\u8fbe\u8f9e\u804c\u53ca\u5176\u8d77\u56e0\u548c\u5b9e\u8d28\u2026\u2026\u2026",
+      "text": "\u7b2c\u56db\u8282 \u666e\u62c9\u660c\u8fbe\u8f9e\u804c\u53ca\u5176\u8d77\u56e0\u548c\u5b9e\u8d28\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 364.0497233072917,
+            "t": 526.5643977864584,
+            "r": 394.4928792317708,
+            "b": 516.3789119466146,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026253",
+      "text": "\u2026253"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 45.6647694905599,
+            "t": 492.6127783203125,
+            "r": 293.86126708984375,
+            "b": 480.3053238932292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u516d\u7ae0\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u518d\u5ea6\u6267\u653f\u53ca\u5176\u8715\u53d8\u4e0e\u5206\u88c2",
+      "text": "\u7b2c\u516d\u7ae0\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u518d\u5ea6\u6267\u653f\u53ca\u5176\u8715\u53d8\u4e0e\u5206\u88c2"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 342.9086100260417,
+            "t": 491.3395849609375,
+            "r": 394.4928792317708,
+            "b": 481.1541194661458,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u2026\u2026\u2026260",
+      "text": "\u2026\u2026\u2026260"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.96685282389323,
+            "t": 475.6369889322917,
+            "r": 307.81439208984375,
+            "b": 462.4807389322917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 \u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\u77ed\u6682\u6267\u653f\u4e0e\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)",
+      "text": "\u7b2c\u4e00\u8282 \u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\u77ed\u6682\u6267\u653f\u4e0e\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 98.51751708984375,
+            "t": 457.3879654947917,
+            "r": 217.33048502604166,
+            "b": 445.929306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u843d\u8d25\u539f\u56e0\u2026\u2026",
+      "text": "\u843d\u8d25\u539f\u56e0\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 342.9086100260417,
+            "t": 456.5392106119792,
+            "r": 394.070068359375,
+            "b": 446.3537044270833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u2026\u2026\u2026260",
+      "text": "\u2026\u2026\u2026260"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 440.8365738932292,
+            "r": 98.94033813476562,
+            "b": 427.6803238932292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 96.40340169270833,
+            "t": 440.8365738932292,
+            "r": 309.92848714192706,
+            "b": 427.6803238932292,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "\u5df4\u7279\u62c9\u4f0a\u5f53\u9009\u603b\u7406\u4e0e\u201c\u4e03\u70b9\u534f\u8bae\u201d\u7684\u6267\u884c\u2026",
+      "text": "\u5df4\u7279\u62c9\u4f0a\u5f53\u9009\u603b\u7406\u4e0e\u201c\u4e03\u70b9\u534f\u8bae\u201d\u7684\u6267\u884c\u2026"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 360.2443033854167,
+            "t": 439.5633805338542,
+            "r": 394.4928792317708,
+            "b": 428.1047216796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026278",
+      "text": "\u2026278"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.12121073404948,
+            "t": 423.8607438151042,
+            "r": 322.6131591796875,
+            "b": 409.8557389322917,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282 \u53cd\u5bf9\u515a\u6b65\u6b65\u7d27\u903c\u4e0e\u5df4\u7279\u62c9\u4f0a\u6210\u4e3a\u7559\u5b88\u603b\u7406\u2026\u2026\u2026",
+      "text": "\u7b2c\u4e09\u8282 \u53cd\u5bf9\u515a\u6b65\u6b65\u7d27\u903c\u4e0e\u5df4\u7279\u62c9\u4f0a\u6210\u4e3a\u7559\u5b88\u603b\u7406\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 406.460556640625,
+            "r": 394.9156901041667,
+            "b": 392.4555110677083,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u56db\u8282 \u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u51fa\u73b0\u5206\u88c2\u4e0e\u4e24\u4e2a\u201c\u4e03\u5927\u201d\u53ec\u5f00\u2026\u2026\u2026\u2026\u2026306",
+      "text": "\u7b2c\u56db\u8282 \u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u51fa\u73b0\u5206\u88c2\u4e0e\u4e24\u4e2a\u201c\u4e03\u5927\u201d\u53ec\u5f00\u2026\u2026\u2026\u2026\u2026306"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 44.81912740071615,
+            "t": 370.81138671875,
+            "r": 269.33758544921875,
+            "b": 358.0794938151042,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e03\u7ae0\u7f8e\u56fd\u3001\u5370\u5ea6\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6001\u5ea6\u4e0e\u4e2d\u5c3c",
+      "text": "\u7b2c\u4e03\u7ae0\u7f8e\u56fd\u3001\u5370\u5ea6\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u6001\u5ea6\u4e0e\u4e2d\u5c3c"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 87.52414957682292,
+            "t": 352.56236328125,
+            "r": 193.2296346028646,
+            "b": 341.1037044270833,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "\u4e24\u515a\u5173\u7cfb\u7684\u5efa\u7acb\u2026\u2026\u2026",
+      "text": "\u4e24\u515a\u5173\u7cfb\u7684\u5efa\u7acb\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 54.54403177897135,
+            "t": 336.4353694661458,
+            "r": 287.94175211588544,
+            "b": 323.7035172526041,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 \u7f8e\u56fd\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5b64\u7acb\u4e0e\u6253\u538b\u2026\u2026\u2026",
+      "text": "\u7b2c\u4e00\u8282 \u7f8e\u56fd\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5b64\u7acb\u4e0e\u6253\u538b\u2026\u2026\u2026"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 53.27556864420573,
+            "t": 319.45953938802086,
+            "r": 100.63162231445312,
+            "b": 305.03013671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 95.1349385579427,
+            "t": 318.18638671875,
+            "r": 288.3645833333333,
+            "b": 305.8788916015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "\u5370\u5ea6\u653f\u5e9c\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5b64\u7acb\u4e0e\u6253\u538b\u2026",
+      "text": "\u5370\u5ea6\u653f\u5e9c\u5bf9\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5b64\u7acb\u4e0e\u6253\u538b\u2026"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 358.975830078125,
+            "t": 316.913193359375,
+            "r": 393.2244059244792,
+            "b": 306.7276871744791,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026335",
+      "text": "\u2026335"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 53.27556864420573,
+            "t": 302.0593522135416,
+            "r": 317.9621175130208,
+            "b": 288.054306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282 \u5c3c\u5171\uff08\u6bdb)\u7684\u5bf9\u534e\u653f\u7b56\u4e0e\u5c3c\u4e2d\u4e24\u515a\u5173\u7cfb\u7684\u5efa\u7acb",
+      "text": "\u7b2c\u4e09\u8282 \u5c3c\u5171\uff08\u6bdb)\u7684\u5bf9\u534e\u653f\u7b56\u4e0e\u5c3c\u4e2d\u4e24\u515a\u5173\u7cfb\u7684\u5efa\u7acb"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 360.6671142578125,
+            "t": 299.5129654947916,
+            "r": 392.8015950520833,
+            "b": 289.3275,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026347",
+      "text": "\u2026347"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 43.55066426595052,
+            "t": 266.4101416015625,
+            "r": 90.48389689127605,
+            "b": 253.67828938802086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7ed3\u8bed\u2026",
+      "text": "\u7ed3\u8bed\u2026"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 361.9355875651042,
+            "t": 265.9857438151041,
+            "r": 392.8015950520833,
+            "b": 254.10268717447912,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026371",
+      "text": "\u2026371"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 53.6983896891276,
+            "t": 249.43435221354162,
+            "r": 268.491943359375,
+            "b": 237.12689778645836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e00\u8282 \u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u7684\u5c3c\u6cca\u5c14\u9769\u547d\u7684\u610f\u4e49",
+      "text": "\u7b2c\u4e00\u8282 \u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u7684\u5c3c\u6cca\u5c14\u9769\u547d\u7684\u610f\u4e49"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 362.3583984375,
+            "t": 247.73676106770836,
+            "r": 391.9559733072917,
+            "b": 237.55129557291662,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "\u2026371",
+      "text": "\u2026371"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 28.329071044921875,
+            "t": 223.12185221354162,
+            "r": 38.899620056152344,
+            "b": 210.81439778645836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 369.9691975911458,
+            "t": 799.874878540039,
+            "r": 385.1907958984375,
+            "b": 787.991811726888,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u76ee",
+      "text": "\u76ee"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 380.116943359375,
+            "t": 800.7236690266927,
+            "r": 413.5198567708333,
+            "b": 787.5674190266927,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "\u5f55",
+      "text": "\u5f55"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 73.14819844563802,
+            "t": 771.8647975667318,
+            "r": 108.66524251302083,
+            "b": 758.2841548665365,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e8c\u8282",
+      "text": "\u7b2c\u4e8c\u8282"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 114.58474731445312,
+            "t": 771.8647975667318,
+            "r": 309.0828450520833,
+            "b": 759.13294535319,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u7684\u5c3c\u6cca\u5c14\u9769\u547d\u7684\u7ecf\u9a8c\u6559\u8bad",
+      "text": "\u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u7684\u5c3c\u6cca\u5c14\u9769\u547d\u7684\u7ecf\u9a8c\u6559\u8bad"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 393.2244059244792,
+            "t": 771.0160070800781,
+            "r": 413.0970458984375,
+            "b": 759.5573380533854,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "376",
+      "text": "376"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.30255635579427,
+            "t": 754.0401973470052,
+            "r": 107.3967793782552,
+            "b": 740.8839473470052,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "\u7b2c\u4e09\u8282",
+      "text": "\u7b2c\u4e09\u8282"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 114.58474731445312,
+            "t": 754.4645951334635,
+            "r": 341.64013671875,
+            "b": 740.4595597330729,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u8d25\u9009\u540e\u7684\u73b0\u72b6\u53ca\u5c3c\u6cca\u5c14\u5f53\u524d\u5c40\u52bf",
+      "text": "\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u8d25\u9009\u540e\u7684\u73b0\u72b6\u53ca\u5c3c\u6cca\u5c14\u5f53\u524d\u5c40\u52bf"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 345.022705078125,
+            "t": 754.0401973470052,
+            "r": 413.5198567708333,
+            "b": 741.3083451334635,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "\u2026\u2026\u2026382",
+      "text": "\u2026\u2026\u2026382"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 62.154825846354164,
+            "t": 718.8154048665365,
+            "r": 158.13541666666666,
+            "b": 706.0835424804687,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "\u9644\u5f55\u4e00\u53c2\u8003\u6587\u732e\u2026",
+      "text": "\u9644\u5f55\u4e00\u53c2\u8003\u6587\u732e\u2026"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 392.8015950520833,
+            "t": 718.3910070800781,
+            "r": 412.2514241536458,
+            "b": 706.9323380533854,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "393",
+      "text": "393"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 61.309183756510414,
+            "t": 692.0785070800781,
+            "r": 276.5255533854167,
+            "b": 677.6490738932291,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "\u9644\u5f55\u4e8c\u4eba\u540d\u3001\u5730\u540d\u3001\u653f\u515a\u548c\u7ec4\u7ec7\u4e2d\u82f1\u6587\u5bf9\u7167",
+      "text": "\u9644\u5f55\u4e8c\u4eba\u540d\u3001\u5730\u540d\u3001\u653f\u515a\u548c\u7ec4\u7ec7\u4e2d\u82f1\u6587\u5bf9\u7167"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 392.8015950520833,
+            "t": 689.9565283203125,
+            "r": 412.2514241536458,
+            "b": 678.4978592936197,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "406",
+      "text": "406"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 61.309183756510414,
+            "t": 656.429306640625,
+            "r": 97.24905395507812,
+            "b": 642.8486588541666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "\u540e\u8bb0",
+      "text": "\u540e\u8bb0"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 392.3787841796875,
+            "t": 655.5805314127604,
+            "r": 410.5601399739583,
+            "b": 643.273056640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "421",
+      "text": "421"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 412.2514241536458,
+            "t": 220.57546549479162,
+            "r": 421.1306559244792,
+            "b": 208.69240885416662,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 117.96732584635417,
+            "t": 711.1762854003906,
+            "r": 356.0160725911458,
+            "b": 667.0391902669271,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca \u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5",
+      "text": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca \u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.57765197753906,
+            "t": 630.116806640625,
+            "r": 412.2514241536458,
+            "b": 521.4716446940104,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a(\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005)\u2460\u662f\u51b7\u6218\u540e\u5d1b\u8d77\u5e76\u6807\u540d\u6bdb\u4e3b\u4e49\u8005\u800c\u72ec\u6811 \u4e00\u5e1c\u7684\u653f\u515a\u30021996\u5e742\u6708\uff0c\u8be5\u515a\u5ba3\u5e03\u8d70\u519c\u6751\u5305\u56f4\u57ce\u5e02\u6b66\u88c5\u593a\u53d6\u5168\u56fd\u653f\u6743\u7684\u9769 \u547d\u9053\u8def\uff0c\u5f88\u5feb\u5c31\u4ece\u6700\u521d\u7684100\u4f59\u4eba\uff0c\u53d1\u5c55\u523010\u5e74\u540e\u62e5\u67097\u4e2a\u4e3b\u529b\u5e08\u76843\u4e07\u591a \u6b63\u89c4\u519b\u4ee5\u53ca\u6c11\u5175\u7b49\u6570\u5341\u4e07\u4eba\u7684\u5730\u65b9\u6b66\u88c5\uff0c\u5728\u519b\u4e8b\u4e0a\u5f62\u6210\u4e86\u5bf9\u52a0\u5fb7\u6ee1\u90fd\u7684\u6218\u7565 \u5408\u56f4\u3002\u4e0d\u4ec5\u5982\u6b64\uff0c\u8fd8\u9010\u6e10\u5728\u5168\u56fd75\u4e2a\u53bf\u4e2d\u768432\u4e2a\u53bf\u5efa\u7acb\u4e86\u81ea\u5df1\u7684\u653f\u6743\u6216\u6839\u636e \u5730\uff0c\u6d3b\u52a8\u8303\u56f4\u6ce2\u53ca\u5168\u56fd68\u4e2a\u53bf\uff0c\u63a7\u5236\u4e86\u52a0\u5fb7\u6ee1\u90fd\u548c\u4e2d\u5fc3\u57ce\u5e02\u4e4b\u5916\u7684\u7edd\u5927\u90e8\u5206 \u5730\u533a\uff0c\u5f71\u54cd\u7684\u4eba\u53e3\u67091000\u591a\u4e07\uff08\u5360\u5168\u56fd\u4eba\u53e3\u8fd1\u4e00\u534a)\uff0c\u5728\u5c3c\u6cca\u5c14\u5f62\u6210\u4e86\u4e24\u79cd\u610f",
+      "text": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a(\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005)\u2460\u662f\u51b7\u6218\u540e\u5d1b\u8d77\u5e76\u6807\u540d\u6bdb\u4e3b\u4e49\u8005\u800c\u72ec\u6811 \u4e00\u5e1c\u7684\u653f\u515a\u30021996\u5e742\u6708\uff0c\u8be5\u515a\u5ba3\u5e03\u8d70\u519c\u6751\u5305\u56f4\u57ce\u5e02\u6b66\u88c5\u593a\u53d6\u5168\u56fd\u653f\u6743\u7684\u9769 \u547d\u9053\u8def\uff0c\u5f88\u5feb\u5c31\u4ece\u6700\u521d\u7684100\u4f59\u4eba\uff0c\u53d1\u5c55\u523010\u5e74\u540e\u62e5\u67097\u4e2a\u4e3b\u529b\u5e08\u76843\u4e07\u591a \u6b63\u89c4\u519b\u4ee5\u53ca\u6c11\u5175\u7b49\u6570\u5341\u4e07\u4eba\u7684\u5730\u65b9\u6b66\u88c5\uff0c\u5728\u519b\u4e8b\u4e0a\u5f62\u6210\u4e86\u5bf9\u52a0\u5fb7\u6ee1\u90fd\u7684\u6218\u7565 \u5408\u56f4\u3002\u4e0d\u4ec5\u5982\u6b64\uff0c\u8fd8\u9010\u6e10\u5728\u5168\u56fd75\u4e2a\u53bf\u4e2d\u768432\u4e2a\u53bf\u5efa\u7acb\u4e86\u81ea\u5df1\u7684\u653f\u6743\u6216\u6839\u636e \u5730\uff0c\u6d3b\u52a8\u8303\u56f4\u6ce2\u53ca\u5168\u56fd68\u4e2a\u53bf\uff0c\u63a7\u5236\u4e86\u52a0\u5fb7\u6ee1\u90fd\u548c\u4e2d\u5fc3\u57ce\u5e02\u4e4b\u5916\u7684\u7edd\u5927\u90e8\u5206 \u5730\u533a\uff0c\u5f71\u54cd\u7684\u4eba\u53e3\u67091000\u591a\u4e07\uff08\u5360\u5168\u56fd\u4eba\u53e3\u8fd1\u4e00\u534a)\uff0c\u5728\u5c3c\u6cca\u5c14\u5f62\u6210\u4e86\u4e24\u79cd\u610f"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 76.95359802246094,
+            "t": 498.9787044270833,
+            "r": 411.40576171875,
+            "b": 416.6460628255208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "\u2460\u82f1\u6587\u5168\u79f0\u4e3a Unified Communist Party of Nepal \uff08Maoist)\uff0c\u7b80\u5199\u4e3a UCPN\uff08M)\u3002\u7ffb\u8bd1\u6210\u4e2d\u6587\uff0c \u6709\u8bd1\u6210\"\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005)\"\u7684\uff0c\u7b80\u79f0\u4e3a\"\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)\"\uff1b\u4e5f\u6709\u8bd1\u6210 \u4e3b\u4e49\"\u5e94\u4f7f\u7528Maoism\u4e00\u8bcd\u3002\u5176\u6b21\uff0c\u82f1\u6587 unified \u6e90\u4e8e\u52a8\u8bcd unify\u3002\u4f7f\u4e0d\u540c\u7684\u4e2a\u4f53\u6210\u4e3a\u6216\u53d8\u6210 \u4e00\u4f53\u6216\u5355\u4f53\uff0c\u8fd9\u662funify\u7684\u57fa\u672c\u542b\u4e49\u3002\u56e0\u6b64\uff0cunified\u7684\u672c\u610f\u5e94\u662f\"\u7edf\u4e00\u7684\"\u3002\"\u8054\u5408\u7684\"\u82f1 \u6587\u8bcd\u6c47\u662funited\u3002\u5c3c\u6cca\u5c14\u7684\u53e6\u4e00\u5171\u4ea7\u515a\u2014\u2014\u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\u7684\u82f1\u6587\u540d\u79f0\u5c31\u542b\u6709united\uff0c\u628a",
+      "text": "\u2460\u82f1\u6587\u5168\u79f0\u4e3a Unified Communist Party of Nepal \uff08Maoist)\uff0c\u7b80\u5199\u4e3a UCPN\uff08M)\u3002\u7ffb\u8bd1\u6210\u4e2d\u6587\uff0c \u6709\u8bd1\u6210\"\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005)\"\u7684\uff0c\u7b80\u79f0\u4e3a\"\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)\"\uff1b\u4e5f\u6709\u8bd1\u6210 \u4e3b\u4e49\"\u5e94\u4f7f\u7528Maoism\u4e00\u8bcd\u3002\u5176\u6b21\uff0c\u82f1\u6587 unified \u6e90\u4e8e\u52a8\u8bcd unify\u3002\u4f7f\u4e0d\u540c\u7684\u4e2a\u4f53\u6210\u4e3a\u6216\u53d8\u6210 \u4e00\u4f53\u6216\u5355\u4f53\uff0c\u8fd9\u662funify\u7684\u57fa\u672c\u542b\u4e49\u3002\u56e0\u6b64\uff0cunified\u7684\u672c\u610f\u5e94\u662f\"\u7edf\u4e00\u7684\"\u3002\"\u8054\u5408\u7684\"\u82f1 \u6587\u8bcd\u6c47\u662funited\u3002\u5c3c\u6cca\u5c14\u7684\u53e6\u4e00\u5171\u4ea7\u515a\u2014\u2014\u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\u7684\u82f1\u6587\u540d\u79f0\u5c31\u542b\u6709united\uff0c\u628a"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 92.17519124348958,
+            "t": 474.788193359375,
+            "r": 410.9829508463542,
+            "b": 381.42125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            215
+          ]
+        }
+      ],
+      "orig": "\"\u5c3c\u6cca\u5c14\u8054\u5408\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49)\"\u7684\uff0c\u7b80\u79f0\"\u5c3c\u8054\u5171\uff08\u6bdb)\"\u3002\u4ece\u82f1\u6587\u540d\u79f0\u770b\uff0c\u540e\u4e00\u79cd \u7ffb\u8bd1\u6709\u4e0d\u51c6\u786e\u7684\u5730\u65b9\uff0c\u9700\u8981\u5546\u69b7\u3002\u9996\u5148\uff0c\u82f1\u6587Maoist\u7684\u542b\u4e49\u662f\"\u6bdb\u4e3b\u4e49\u8005\"\uff0c\u5982\u679c\u662f\"\u6bdb Communist Party of Nepal\uff08United Marxism-Leninism)\u7ffb\u8bd1\u6210\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u8054\u5408\u9a6c\u5217\u4e3b\u4e49\uff09\uff0c \u7b80\u79f0\u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\uff0c\u8fd9\u662f\u51c6\u786e\u7684\u3002\u9274\u4e8e\u6b64\uff0c\u672c\u8bfe\u9898\u51b3\u5b9a\u4f7f\u7528\"\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb \u6cfd\u4e1c\u4e3b\u4e49\u8005)\"\u7b80\u79f0\"\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)\"\u8fd9\u4e2a\u8bd1\u6cd5\u3002",
+      "text": "\"\u5c3c\u6cca\u5c14\u8054\u5408\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49)\"\u7684\uff0c\u7b80\u79f0\"\u5c3c\u8054\u5171\uff08\u6bdb)\"\u3002\u4ece\u82f1\u6587\u540d\u79f0\u770b\uff0c\u540e\u4e00\u79cd \u7ffb\u8bd1\u6709\u4e0d\u51c6\u786e\u7684\u5730\u65b9\uff0c\u9700\u8981\u5546\u69b7\u3002\u9996\u5148\uff0c\u82f1\u6587Maoist\u7684\u542b\u4e49\u662f\"\u6bdb\u4e3b\u4e49\u8005\"\uff0c\u5982\u679c\u662f\"\u6bdb Communist Party of Nepal\uff08United Marxism-Leninism)\u7ffb\u8bd1\u6210\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u8054\u5408\u9a6c\u5217\u4e3b\u4e49\uff09\uff0c \u7b80\u79f0\u5c3c\u5171\uff08\u8054\u5408\u9a6c\u5217\uff09\uff0c\u8fd9\u662f\u51c6\u786e\u7684\u3002\u9274\u4e8e\u6b64\uff0c\u672c\u8bfe\u9898\u51b3\u5b9a\u4f7f\u7528\"\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb \u6cfd\u4e1c\u4e3b\u4e49\u8005)\"\u7b80\u79f0\"\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb)\"\u8fd9\u4e2a\u8bd1\u6cd5\u3002"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.90671793619792,
+            "t": 380.148056640625,
+            "r": 410.9829508463542,
+            "b": 274.04926106770836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            344
+          ]
+        }
+      ],
+      "orig": "UCPN\uff08M)\u7684\u5386\u53f2\u6bd4\u8f83\u590d\u6742\uff0c\u515a\u7684\u540d\u79f0\u4e5f\u4e0d\u65ad\u53d1\u751f\u53d8\u5316\u3002\u5386\u53f2\u6e0a\u6e90\u6700\u65e9\u53ef\u8ffd\u6eaf\u52301949 \u5e74\u6210\u7acb\u7684\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff0c\u4e5f\u53ef\u8ffd\u6eaf\u81f31974\u5e74\u6210\u7acb\u7684\u5c3c\u5171\uff08\u56db\u5927)\uff0c\u4ee5\u540e\u53c8\u7ecf\u5386\u4e86\u5c3c\u5171 (Masal\uff09\u3001\u5c3c\u5171\uff08Mashal)\u3001\u5c3c\u5171\uff08\u56e2\u7ed3\u4e2d\u5fc3\uff09\u51e0\u4e2a\u9636\u6bb5\u30021995\u5e742\u6708\u5f00\u59cb\u786e\u7acb\u515a\u7684\u540d\u79f0\u4e3a \u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0\u5c3c\u5171\uff08\u6bdb\uff09\u30022009\u5e741\u6708\uff0c\u5c3c\u5171\uff08\u6bdb\uff09\u540c\u53e6\u4e00\u5171\u4ea7 \u515a\u5408\u5e76\u540e\u53d6\u540d\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u30022012\u5e746\u6708\uff0c\u8be5\u515a\u4e00 \u5206\u4e3a\u4e8c\u3002\u666e\u62c9\u660c\u8fbe\u9886\u5bfc\u7684\u515a\u4ecd\u79f0\u4e3a\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\uff0c\u800c\u5206\u88c2\u51fa\u53bb\u7684\u65b0\u515a\u53d6\u540d\u4e3a\u5c3c\u6cca\u5c14\u5171\u4ea7 \u515a\u4e00\u6bdb\u4e3b\u4e49\u8005\uff0c\u7b80\u79f0\u5c3c\u5171\u4e00\u6bdb\u3002\u503c\u5f97\u4e00\u63d0\u7684\u662f\uff0c\u88ab\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u5f00\u9664\u51fa\u515a\u7684\u9886\u5bfc\u4eba\u9a6c\u5782 \u5361\u00b7\u666e\u62c9\u8428\u5fb7\u00b7\u96c5\u8fbe\u592b\uff0c\u57282009\u5e74\u53e6\u7acb\u4e86\u65b0\u515a\u2014\u2014\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0 \u5c3c\u5171\uff08\u6bdb\uff09\u3002",
+      "text": "UCPN\uff08M)\u7684\u5386\u53f2\u6bd4\u8f83\u590d\u6742\uff0c\u515a\u7684\u540d\u79f0\u4e5f\u4e0d\u65ad\u53d1\u751f\u53d8\u5316\u3002\u5386\u53f2\u6e0a\u6e90\u6700\u65e9\u53ef\u8ffd\u6eaf\u52301949 \u5e74\u6210\u7acb\u7684\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff0c\u4e5f\u53ef\u8ffd\u6eaf\u81f31974\u5e74\u6210\u7acb\u7684\u5c3c\u5171\uff08\u56db\u5927)\uff0c\u4ee5\u540e\u53c8\u7ecf\u5386\u4e86\u5c3c\u5171 (Masal\uff09\u3001\u5c3c\u5171\uff08Mashal)\u3001\u5c3c\u5171\uff08\u56e2\u7ed3\u4e2d\u5fc3\uff09\u51e0\u4e2a\u9636\u6bb5\u30021995\u5e742\u6708\u5f00\u59cb\u786e\u7acb\u515a\u7684\u540d\u79f0\u4e3a \u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0\u5c3c\u5171\uff08\u6bdb\uff09\u30022009\u5e741\u6708\uff0c\u5c3c\u5171\uff08\u6bdb\uff09\u540c\u53e6\u4e00\u5171\u4ea7 \u515a\u5408\u5e76\u540e\u53d6\u540d\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u30022012\u5e746\u6708\uff0c\u8be5\u515a\u4e00 \u5206\u4e3a\u4e8c\u3002\u666e\u62c9\u660c\u8fbe\u9886\u5bfc\u7684\u515a\u4ecd\u79f0\u4e3a\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\uff0c\u800c\u5206\u88c2\u51fa\u53bb\u7684\u65b0\u515a\u53d6\u540d\u4e3a\u5c3c\u6cca\u5c14\u5171\u4ea7 \u515a\u4e00\u6bdb\u4e3b\u4e49\u8005\uff0c\u7b80\u79f0\u5c3c\u5171\u4e00\u6bdb\u3002\u503c\u5f97\u4e00\u63d0\u7684\u662f\uff0c\u88ab\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u5f00\u9664\u51fa\u515a\u7684\u9886\u5bfc\u4eba\u9a6c\u5782 \u5361\u00b7\u666e\u62c9\u8428\u5fb7\u00b7\u96c5\u8fbe\u592b\uff0c\u57282009\u5e74\u53e6\u7acb\u4e86\u65b0\u515a\u2014\u2014\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u6cfd\u4e1c\u4e3b\u4e49\u8005\uff09\uff0c\u7b80\u79f0 \u5c3c\u5171\uff08\u6bdb\uff09\u3002"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 91.3295389811198,
+            "t": 274.04926106770836,
+            "r": 410.1372884114583,
+            "b": 240.0976416015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "\u9700\u8981\u8bf4\u660e\u7684\u662f\uff0c\u6587\u4e2d\u4f7f\u7528\u7684\u7b80\u79f0\u5c3c\u5171\uff08\u6bdb\uff09\u662f\u63071995~2009\u5e741\u6708\u671f\u95f4\u7684\u5c3c\u6cca\u5c14\u5171\u4ea7 \u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u662f\u63072009\u5e741\u6708\u81f3\u4eca\u7684\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c \u8de8\u8d8a\u8fd9\u4e24\u4e2a\u65f6\u671f\u7684\u4f7f\u7528\u5c3c\u5171\uff08\u6bdb\uff09\u3002",
+      "text": "\u9700\u8981\u8bf4\u660e\u7684\u662f\uff0c\u6587\u4e2d\u4f7f\u7528\u7684\u7b80\u79f0\u5c3c\u5171\uff08\u6bdb\uff09\u662f\u63071995~2009\u5e741\u6708\u671f\u95f4\u7684\u5c3c\u6cca\u5c14\u5171\u4ea7 \u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c\u7edf\u4e00\u5c3c\u5171\uff08\u6bdb\uff09\u662f\u63072009\u5e741\u6708\u81f3\u4eca\u7684\u5c3c\u6cca\u5c14\u7edf\u4e00\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\uff0c \u8de8\u8d8a\u8fd9\u4e24\u4e2a\u65f6\u671f\u7684\u4f7f\u7528\u5c3c\u5171\uff08\u6bdb\uff09\u3002"
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 416.4796142578125,
+            "t": 225.24384114583336,
+            "r": 424.9360758463542,
+            "b": 214.20953938802086,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "1",
+      "text": "1"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.9734853108724,
+            "t": 802.42125,
+            "r": 300.20359293619794,
+            "b": 792.2357641601562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\u7684\u5386\u53f2\u3001\u6267\u653f\u53ca\u5176\u5b17\u53d8\u63a2\u7a76",
+      "text": "\u5c3c\u6cca\u5c14\u5171\u4ea7\u515a\uff08\u6bdb\u4e3b\u4e49\u8005\uff09\u7684\u5386\u53f2\u3001\u6267\u653f\u53ca\u5176\u5b17\u53d8\u63a2\u7a76"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.127838134765625,
+            "t": 773.9867712402344,
+            "r": 378.4256591796875,
+            "b": 762.9525,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "\u8bc6\u5f62\u6001\u3001\u4e24\u6761\u53d1\u5c55\u9053\u8def\u3001\u4e24\u4e2a\u653f\u6743\u3001\u4e24\u652f\u519b\u961f\u5e76\u5b58\u5bf9\u5cd9\u7684\u653f\u6cbb\u519b\u4e8b\u793e\u4f1a\u5c40\u9762\u3002",
+      "text": "\u8bc6\u5f62\u6001\u3001\u4e24\u6761\u53d1\u5c55\u9053\u8def\u3001\u4e24\u4e2a\u653f\u6743\u3001\u4e24\u652f\u519b\u961f\u5e76\u5b58\u5bf9\u5cd9\u7684\u653f\u6cbb\u519b\u4e8b\u793e\u4f1a\u5c40\u9762\u3002"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 41.859375,
+            "t": 757.8597570800781,
+            "r": 392.8015950520833,
+            "b": 651.7609716796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            236
+          ]
+        }
+      ],
+      "orig": "\u7136\u800c\u5c31\u5728\u6b66\u88c5\u9769\u547d\u53d6\u5f97\u91cd\u5927\u6210\u5c31\u7684\u80cc\u666f\u4e0b\uff0c2006\u5e7411\u6708\uff0c\u5c3c\u5171\uff08\u6bdb\uff09 \u5374\u6700\u7ec8\u51b3\u5b9a\u653e\u5f03\u575a\u6301\u4e8610\u5e74\u7684\u6b66\u88c5\u6597\u4e89\uff0c\u5ba3\u5e03\u8d70\u548c\u5e73\u7684\u8bae\u4f1a\u9053\u8def\uff0c\u6b64\u540e\u8be5 \u515a\u57282008\u5e744\u6708\u4e3e\u884c\u7684\u5c3c\u6cca\u5c14\u5927\u9009\u4e2d\u4e00\u4e3e\u83b7\u80dc\u6210\u4e3a\u6267\u653f\u515a\uff0c\u5e76\u7ec4\u6210\u8054\u5408\u653f \u5e9c\uff0c\u7136\u800c\u4e0d\u8db39\u4e2a\u6708\u53c8\u88ab\u8feb\u9000\u51fa\u6267\u653f\uff1b2011\u5e748\u6708\uff0c\u8be5\u515a\u4e1c\u5c71\u518d\u8d77\uff0c\u7b2c\u4e8c \u6b21\u6267\u653f\uff0c\u7136\u800c9\u4e2a\u6708\u540e\u518d\u5ea6\u5931\u53bb\u6267\u653f\u8d44\u683c\uff0c\u76f4\u52302013\u5e743\u6708\u5b8c\u5168\u9000\u51fa\u653f\u5e9c\u3002 2013\u5e7411\u6708\uff0c\u5c3c\u6cca\u5c14\u4e3e\u884c\u7b2c\u4e8c\u5c4a\u5236\u5baa\u8bae\u4f1a\u9009\u4e3e\uff0c\u5df2\u7ecf\u5386\u4e86\u5206\u88c2\u7684\u5c3c\u5171 (\u6bdb)\u5931\u53bb\u4e86\u5f80\u65e5\u7684\u8f89\u714c\uff0c\u5728\u5927\u9009\u4e2d\u60e8\u8d25\uff0c\u6ca6\u4e3a\u8bae\u4f1a\u7b2c\u4e09\u5927\u515a\u3002",
+      "text": "\u7136\u800c\u5c31\u5728\u6b66\u88c5\u9769\u547d\u53d6\u5f97\u91cd\u5927\u6210\u5c31\u7684\u80cc\u666f\u4e0b\uff0c2006\u5e7411\u6708\uff0c\u5c3c\u5171\uff08\u6bdb\uff09 \u5374\u6700\u7ec8\u51b3\u5b9a\u653e\u5f03\u575a\u6301\u4e8610\u5e74\u7684\u6b66\u88c5\u6597\u4e89\uff0c\u5ba3\u5e03\u8d70\u548c\u5e73\u7684\u8bae\u4f1a\u9053\u8def\uff0c\u6b64\u540e\u8be5 \u515a\u57282008\u5e744\u6708\u4e3e\u884c\u7684\u5c3c\u6cca\u5c14\u5927\u9009\u4e2d\u4e00\u4e3e\u83b7\u80dc\u6210\u4e3a\u6267\u653f\u515a\uff0c\u5e76\u7ec4\u6210\u8054\u5408\u653f \u5e9c\uff0c\u7136\u800c\u4e0d\u8db39\u4e2a\u6708\u53c8\u88ab\u8feb\u9000\u51fa\u6267\u653f\uff1b2011\u5e748\u6708\uff0c\u8be5\u515a\u4e1c\u5c71\u518d\u8d77\uff0c\u7b2c\u4e8c \u6b21\u6267\u653f\uff0c\u7136\u800c9\u4e2a\u6708\u540e\u518d\u5ea6\u5931\u53bb\u6267\u653f\u8d44\u683c\uff0c\u76f4\u52302013\u5e743\u6708\u5b8c\u5168\u9000\u51fa\u653f\u5e9c\u3002 2013\u5e7411\u6708\uff0c\u5c3c\u6cca\u5c14\u4e3e\u884c\u7b2c\u4e8c\u5c4a\u5236\u5baa\u8bae\u4f1a\u9009\u4e3e\uff0c\u5df2\u7ecf\u5386\u4e86\u5206\u88c2\u7684\u5c3c\u5171 (\u6bdb)\u5931\u53bb\u4e86\u5f80\u65e5\u7684\u8f89\u714c\uff0c\u5728\u5927\u9009\u4e2d\u60e8\u8d25\uff0c\u6ca6\u4e3a\u8bae\u4f1a\u7b2c\u4e09\u5927\u515a\u3002"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 42.282196044921875,
+            "t": 647.0926163736979,
+            "r": 392.8015950520833,
+            "b": 477.3345393880208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            355
+          ]
+        }
+      ],
+      "orig": "\u540c\u5c3c\u5171\uff08\u6bdb\uff09\u574e\u5777\u547d\u8fd0\u7d27\u5bc6\u76f8\u8fde\u7684\uff0c\u4fbf\u662f\u5c3c\u6cca\u5c14\u590d\u6742\u591a\u53d8\u7684\u5c40\u52bf\u3002\u5c3c \u6cca\u5c141950\u5e74\u6062\u590d\u738b\u6743\uff0c\u5728\u56fd\u738b\u7279\u91cc\u5e03\u6587\u548c\u9a6c\u4ea8\u5fb7\u62c9\u7edf\u6cbb\u65f6\u671f\uff0c\u56fd\u5185\u5c40\u52bf\u603b \u4f53\u4e0a\u8fd8\u7b97\u7a33\u5b9a\u3002\u81ea20\u4e16\u7eaa90\u5e74\u4ee3\u4ee5\u540e\uff0c\u5c3c\u6cca\u5c14\u5f00\u59cb\u6301\u7eed\u52a8\u8361\uff0c1990\u5e74\u5168 \u56fd\u7206\u53d1\u5927\u89c4\u6a21\u7684\u4eba\u6c11\u6c11\u4e3b\u8fd0\u52a8\uff0c1996\u5e74\u5c3c\u5171\uff08\u6bdb\uff09\u5ba3\u5e03\u5f00\u5c55\u4eba\u6c11\u6218\u4e89\uff0c\u51b3 \u5b9a\u7528\u6b66\u529b\u63a8\u7ffb\u738b\u5ba4\u653f\u6743\uff0c\u5728\u5c3c\u6cca\u5c14\u5efa\u7acb\u65b0\u6c11\u4e3b\u4e3b\u4e49\u793e\u4f1a\u3002\u6b64\u540e\u5c3c\u6cca\u5c14\u56fd\u5185\u5f62 \u6210\u4e00\u65b9\u4ee5\u5c3c\u5171\uff08\u6bdb\uff09\u4e3a\u4ee3\u8868\u3001\u53e6\u4e00\u65b9\u4ee5\u738b\u6743\u4e3a\u4ee3\u8868\u7684\u4e24\u6761\u9053\u8def\u3001\u4e24\u4e2a\u653f\u6743\u3001 \u4e24\u652f\u519b\u961f\u3001\u4e24\u79cd\u610f\u8bc6\u5f62\u6001\u6fc0\u70c8\u5c16\u9510\u7684\u6597\u4e89\u548c\u8f83\u91cf\u3002\u5728\u5c3c\u738b\u5ba4\u653f\u6743\u5185\u90e8\u4e5f\u5b58\u5728 \u738b\u6743\u4e0e\u515a\u6743\u3001\u56fd\u738b\u4e0e\u8bae\u4f1a\u3001\u5404\u8bae\u4f1a\u515a\u6d3e\u4e4b\u95f4\u7684\u77db\u76fe\u4e0e\u5206\u6b67\uff0c\u6743\u529b\u7eb7\u4e89\u4e0d\u6b62\uff0c \u653f\u5e9c\u66f4\u8fed\u9891\u7e41\uff0c\u793e\u4f1a\u52a8\u8361\u4e0d\u5b9a\uff0c\u4eba\u6c11\u751f\u6d3b\u7a77\u82e6\u4e0d\u582a\u3002\u5373\u4fbf\u57282006\u5e74\u5c3c\u6cca\u5c14 \u5b9e\u73b0\u548c\u5e73\u4ee5\u540e\uff0c\u56fd\u5bb6\u653f\u5c40\u52a8\u8361\u3001\u793e\u4f1a\u4e0d\u7a33\u3001\u7ecf\u6d4e\u4f4e\u8ff7\u3001\u4eba\u5fc3\u4e0d\u5b9a\u7684\u4e71\u8c61\uff0c\u81f3 \u4eca\u4e5f\u6ca1\u6709\u4efb\u4f55\u5b9e\u8d28\u6027\u7684\u6539\u53d8\u3002",
+      "text": "\u540c\u5c3c\u5171\uff08\u6bdb\uff09\u574e\u5777\u547d\u8fd0\u7d27\u5bc6\u76f8\u8fde\u7684\uff0c\u4fbf\u662f\u5c3c\u6cca\u5c14\u590d\u6742\u591a\u53d8\u7684\u5c40\u52bf\u3002\u5c3c \u6cca\u5c141950\u5e74\u6062\u590d\u738b\u6743\uff0c\u5728\u56fd\u738b\u7279\u91cc\u5e03\u6587\u548c\u9a6c\u4ea8\u5fb7\u62c9\u7edf\u6cbb\u65f6\u671f\uff0c\u56fd\u5185\u5c40\u52bf\u603b \u4f53\u4e0a\u8fd8\u7b97\u7a33\u5b9a\u3002\u81ea20\u4e16\u7eaa90\u5e74\u4ee3\u4ee5\u540e\uff0c\u5c3c\u6cca\u5c14\u5f00\u59cb\u6301\u7eed\u52a8\u8361\uff0c1990\u5e74\u5168 \u56fd\u7206\u53d1\u5927\u89c4\u6a21\u7684\u4eba\u6c11\u6c11\u4e3b\u8fd0\u52a8\uff0c1996\u5e74\u5c3c\u5171\uff08\u6bdb\uff09\u5ba3\u5e03\u5f00\u5c55\u4eba\u6c11\u6218\u4e89\uff0c\u51b3 \u5b9a\u7528\u6b66\u529b\u63a8\u7ffb\u738b\u5ba4\u653f\u6743\uff0c\u5728\u5c3c\u6cca\u5c14\u5efa\u7acb\u65b0\u6c11\u4e3b\u4e3b\u4e49\u793e\u4f1a\u3002\u6b64\u540e\u5c3c\u6cca\u5c14\u56fd\u5185\u5f62 \u6210\u4e00\u65b9\u4ee5\u5c3c\u5171\uff08\u6bdb\uff09\u4e3a\u4ee3\u8868\u3001\u53e6\u4e00\u65b9\u4ee5\u738b\u6743\u4e3a\u4ee3\u8868\u7684\u4e24\u6761\u9053\u8def\u3001\u4e24\u4e2a\u653f\u6743\u3001 \u4e24\u652f\u519b\u961f\u3001\u4e24\u79cd\u610f\u8bc6\u5f62\u6001\u6fc0\u70c8\u5c16\u9510\u7684\u6597\u4e89\u548c\u8f83\u91cf\u3002\u5728\u5c3c\u738b\u5ba4\u653f\u6743\u5185\u90e8\u4e5f\u5b58\u5728 \u738b\u6743\u4e0e\u515a\u6743\u3001\u56fd\u738b\u4e0e\u8bae\u4f1a\u3001\u5404\u8bae\u4f1a\u515a\u6d3e\u4e4b\u95f4\u7684\u77db\u76fe\u4e0e\u5206\u6b67\uff0c\u6743\u529b\u7eb7\u4e89\u4e0d\u6b62\uff0c \u653f\u5e9c\u66f4\u8fed\u9891\u7e41\uff0c\u793e\u4f1a\u52a8\u8361\u4e0d\u5b9a\uff0c\u4eba\u6c11\u751f\u6d3b\u7a77\u82e6\u4e0d\u582a\u3002\u5373\u4fbf\u57282006\u5e74\u5c3c\u6cca\u5c14 \u5b9e\u73b0\u548c\u5e73\u4ee5\u540e\uff0c\u56fd\u5bb6\u653f\u5c40\u52a8\u8361\u3001\u793e\u4f1a\u4e0d\u7a33\u3001\u7ecf\u6d4e\u4f4e\u8ff7\u3001\u4eba\u5fc3\u4e0d\u5b9a\u7684\u4e71\u8c61\uff0c\u81f3 \u4eca\u4e5f\u6ca1\u6709\u4efb\u4f55\u5b9e\u8d28\u6027\u7684\u6539\u53d8\u3002"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 41.859375,
+            "t": 472.6662044270833,
+            "r": 391.1103108723958,
+            "b": 382.2700455729167,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u52a8\u8361\u591a\u53d8\u7684\u5c40\u52bf\u4e0d\u53ef\u907f\u514d\u5730\u5f71\u54cd\u7740\u4e16\u4ee3\u53cb\u597d\u7684\u4e2d\u5c3c\u4e24\u56fd\u5173\u7cfb\u3002\u4ece \u7ef4\u62a4\u548c\u4f20\u627f\u4e2d\u5c3c\u53cb\u597d\u8fd9\u4e2a\u5927\u5c40\u7814\u7a76\u5c3c\u6cca\u5c14\u7684\u5c40\u52bf\u53ca\u5176\u53d8\u5316\uff0c\u5bf9\u6211\u4eec\u8c03\u6574\u5bf9\u5c3c \u653f\u7b56\u65e0\u7591\u662f\u5fc5\u8981\u800c\u6709\u73b0\u5b9e\u610f\u4e49\u7684\u3002\u7814\u7a76\u5c3c\u6cca\u5c14\u5c40\u52bf\u5c31\u9700\u8981\u7814\u7a76\u5c3c\u5171\uff08\u6bdb)\u3002 \u5c3c\u5171\uff08\u6bdb\uff09\u5f71\u54cd\u6216\u4e3b\u5bfc\u5c3c\u6cca\u5c14\u5c40\u52bf\u957f\u8fbe20\u591a\u5e74\uff0c\u76ee\u524d\u4ecd\u662f\u5c3c\u6cca\u5c14\u653f\u575b\u4e00\u652f \u91cd\u8981\u529b\u91cf\u3002\u4e86\u89e3\u548c\u5173\u6ce8\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5386\u53f2\u4e0e\u73b0\u72b6\uff0c\u5bf9\u6211\u4eec\u89e3\u5f00\u5c3c\u6cca\u5c14\u4e71\u8c61 \u4e4b\u8c1c\u662f\u4e00\u4e2a\u91cd\u8981\u5207\u5165\u70b9\uff0c\u4e5f\u662f\u6211\u4eec\u89c2\u5bdf\u548c\u5206\u6790\u5c3c\u6cca\u5c14\u5c40\u52bf\u7684\u4e00\u628a\u94a5\u5319\u3002",
+      "text": "\u5c3c\u6cca\u5c14\u52a8\u8361\u591a\u53d8\u7684\u5c40\u52bf\u4e0d\u53ef\u907f\u514d\u5730\u5f71\u54cd\u7740\u4e16\u4ee3\u53cb\u597d\u7684\u4e2d\u5c3c\u4e24\u56fd\u5173\u7cfb\u3002\u4ece \u7ef4\u62a4\u548c\u4f20\u627f\u4e2d\u5c3c\u53cb\u597d\u8fd9\u4e2a\u5927\u5c40\u7814\u7a76\u5c3c\u6cca\u5c14\u7684\u5c40\u52bf\u53ca\u5176\u53d8\u5316\uff0c\u5bf9\u6211\u4eec\u8c03\u6574\u5bf9\u5c3c \u653f\u7b56\u65e0\u7591\u662f\u5fc5\u8981\u800c\u6709\u73b0\u5b9e\u610f\u4e49\u7684\u3002\u7814\u7a76\u5c3c\u6cca\u5c14\u5c40\u52bf\u5c31\u9700\u8981\u7814\u7a76\u5c3c\u5171\uff08\u6bdb)\u3002 \u5c3c\u5171\uff08\u6bdb\uff09\u5f71\u54cd\u6216\u4e3b\u5bfc\u5c3c\u6cca\u5c14\u5c40\u52bf\u957f\u8fbe20\u591a\u5e74\uff0c\u76ee\u524d\u4ecd\u662f\u5c3c\u6cca\u5c14\u653f\u575b\u4e00\u652f \u91cd\u8981\u529b\u91cf\u3002\u4e86\u89e3\u548c\u5173\u6ce8\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u5386\u53f2\u4e0e\u73b0\u72b6\uff0c\u5bf9\u6211\u4eec\u89e3\u5f00\u5c3c\u6cca\u5c14\u4e71\u8c61 \u4e4b\u8c1c\u662f\u4e00\u4e2a\u91cd\u8981\u5207\u5165\u70b9\uff0c\u4e5f\u662f\u6211\u4eec\u89c2\u5bdf\u548c\u5206\u6790\u5c3c\u6cca\u5c14\u5c40\u52bf\u7684\u4e00\u628a\u94a5\u5319\u3002"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 40.16808573404948,
+            "t": 378.0260677083333,
+            "r": 391.9559733072917,
+            "b": 302.0593522135416,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "\u4ece2001\u5e74\u8d77\uff0c\u8bfe\u9898\u7ec4\u8d1f\u8d23\u4eba\u5373\u7b14\u8005\u5c31\u7740\u624b\u641c\u96c6\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u60c5\u51b5\u548c\u4fe1 \u606f\uff0c2006\u5e74\u8d77\u9646\u7eed\u53d1\u8868\u4e86\u4e00\u4e9b\u6587\u7ae0\uff0c2009\u5e74\u7533\u62a5\u6559\u80b2\u90e8\u4eba\u6587\u793e\u4f1a\u79d1\u5b66\u7814\u7a76\u9879 \u76ee\u5e76\u83b7\u51c6\u7acb\u9879\uff0c2010\u5e74\u53c8\u83b7\u5f97\u56fd\u5bb6\u793e\u79d1\u57fa\u91d1\u4e00\u822c\u9879\u76ee\u7acb\u9879\u30022015\u5e74\u672c\u6210\u679c\u53d7 \u5230\u4e2d\u56fd\u4eba\u6c11\u5927\u5b66\"985\u5de5\u7a0b\"\u7684\u652f\u6301\u3002\u4ece\u8bfe\u9898\u7acb\u9879\u81f3\u4eca\uff0c5\u5e74\u591a\u65f6\u95f4\u8fc7\u53bb\u4e86\u3002 \u6b64\u95f4\u5c3c\u5171\uff08\u6bdb\uff09\u548c\u5c3c\u6cca\u5c14\u5c40\u52bf\u53d1\u751f\u4e86\u590d\u6742\u53d8\u5316\uff0c\u4f46\u8bfe\u9898\u7684\u4ef7\u503c\u548c\u610f\u4e49\u4ecd\u7136\u672a\u51cf\u3002",
+      "text": "\u4ece2001\u5e74\u8d77\uff0c\u8bfe\u9898\u7ec4\u8d1f\u8d23\u4eba\u5373\u7b14\u8005\u5c31\u7740\u624b\u641c\u96c6\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u60c5\u51b5\u548c\u4fe1 \u606f\uff0c2006\u5e74\u8d77\u9646\u7eed\u53d1\u8868\u4e86\u4e00\u4e9b\u6587\u7ae0\uff0c2009\u5e74\u7533\u62a5\u6559\u80b2\u90e8\u4eba\u6587\u793e\u4f1a\u79d1\u5b66\u7814\u7a76\u9879 \u76ee\u5e76\u83b7\u51c6\u7acb\u9879\uff0c2010\u5e74\u53c8\u83b7\u5f97\u56fd\u5bb6\u793e\u79d1\u57fa\u91d1\u4e00\u822c\u9879\u76ee\u7acb\u9879\u30022015\u5e74\u672c\u6210\u679c\u53d7 \u5230\u4e2d\u56fd\u4eba\u6c11\u5927\u5b66\"985\u5de5\u7a0b\"\u7684\u652f\u6301\u3002\u4ece\u8bfe\u9898\u7acb\u9879\u81f3\u4eca\uff0c5\u5e74\u591a\u65f6\u95f4\u8fc7\u53bb\u4e86\u3002 \u6b64\u95f4\u5c3c\u5171\uff08\u6bdb\uff09\u548c\u5c3c\u6cca\u5c14\u5c40\u52bf\u53d1\u751f\u4e86\u590d\u6742\u53d8\u5316\uff0c\u4f46\u8bfe\u9898\u7684\u4ef7\u503c\u548c\u610f\u4e49\u4ecd\u7136\u672a\u51cf\u3002"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 148.83333333333334,
+            "t": 283.3859716796875,
+            "r": 306.12310791015625,
+            "b": 270.65411946614586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "\u8bfe\u9898\u7684\u7814\u7a76\u4ef7\u503c\u548c\u73b0\u5b9e\u610f\u4e49",
+      "text": "\u8bfe\u9898\u7684\u7814\u7a76\u4ef7\u503c\u548c\u73b0\u5b9e\u610f\u4e49",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 61.73200480143229,
+            "t": 251.98073893229162,
+            "r": 389.4190266927083,
+            "b": 238.82448893229162,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "\u9996\u5148\uff0c\u5c3c\u6cca\u5c14\u662f\u4e2d\u56fd\u7684\u91cd\u8981\u90bb\u56fd\uff0c\u6709\u7740\u7279\u6b8a\u7684\u5730\u7406\u4f4d\u7f6e\u548c\u6218\u7565\u5730\u4f4d\uff0c\u5bf9",
+      "text": "\u9996\u5148\uff0c\u5c3c\u6cca\u5c14\u662f\u4e2d\u56fd\u7684\u91cd\u8981\u90bb\u56fd\uff0c\u6709\u7740\u7279\u6b8a\u7684\u5730\u7406\u4f4d\u7f6e\u548c\u6218\u7565\u5730\u4f4d\uff0c\u5bf9"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 24.52367401123047,
+            "t": 226.09263671875,
+            "r": 35.09422302246094,
+            "b": 213.7851416015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 191.5383504231771,
+            "t": 802.42125,
+            "r": 413.9427083333333,
+            "b": 789.6893927001953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca\u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5",
+      "text": "\u5bfc\u8bba\u7814\u7a76\u76ee\u7684\u3001\u7814\u7a76\u73b0\u72b6\u53ca\u9075\u5faa\u7684\u539f\u5219\u548c\u65b9\u6cd5"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 64.26893615722656,
+            "t": 772.7135880533854,
+            "r": 413.9427083333333,
+            "b": 744.7035070800781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "\u6211\u56fd\u7ef4\u62a4\u897f\u90e8\u8fb9\u9672\u5b89\u5168\u548c\u7a33\u5b9a\u3001\u5236\u8861\u5370\u5ea6\u6269\u5f20\u4e3b\u4e49\u548c\u5883\u5916\u53cd\u534e\u5206\u88c2\u52bf\u529b\u3001\u7ef4 \u62a4\u5357\u4e9a\u5c40\u52bf\u7a33\u5b9a\u610f\u4e49\u91cd\u5927\u3002",
+      "text": "\u6211\u56fd\u7ef4\u62a4\u897f\u90e8\u8fb9\u9672\u5b89\u5168\u548c\u7a33\u5b9a\u3001\u5236\u8861\u5370\u5ea6\u6269\u5f20\u4e3b\u4e49\u548c\u5883\u5916\u53cd\u534e\u5206\u88c2\u52bf\u529b\u3001\u7ef4 \u62a4\u5357\u4e9a\u5c40\u52bf\u7a33\u5b9a\u610f\u4e49\u91cd\u5927\u3002"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 64.26893615722656,
+            "t": 740.0351619466146,
+            "r": 413.5198567708333,
+            "b": 664.4928238932291,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\uff0c\u5168\u79f0\u5c3c\u6cca\u5c14\u8054\u90a6\u6c11\u4e3b\u5171\u548c\u56fd\uff0c\u662f\u5357\u4e9a\u5730\u533a\u7684\u4e00\u4e2a\u5185\u9646\u5c71\u56fd\uff0c\u5728 \u559c\u9a6c\u62c9\u96c5\u5c71\u8109\u5357\u9e93\uff0c\u4e1c\u5317\u9762\u4e0e\u4e2d\u56fd\u897f\u85cf\u81ea\u6cbb\u533a\u76f8\u90bb\uff0c\u5176\u4f59\u4e09\u9762\u540c\u5370\u5ea6\u63a5\u58e4\u3002 \u56fd\u571f\u9762\u79ef14.7\u4e07\u591a\u5e73\u65b9\u5343\u7c73\uff0c\u4eba\u53e3\u67092600\u591a\u4e07(2011\u5e74\u7684\u7edf\u8ba1)\u3002\u5c3c\u6cca\u5c14 \u867d\u662f\u4e00\u4e2a\u5c0f\u56fd\uff0c\u4f46\u56e0\u5730\u5904\u4e2d\u3001\u5370\u4e24\u4e2a\u5927\u56fd\u4e4b\u95f4\uff0c\u6218\u7565\u5730\u4f4d\u7279\u6b8a\u800c\u91cd\u8981\uff0c\u5386\u6765 \u53d7\u5230\u5370\u5ea6\u4ee5\u53ca\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u5927\u56fd\u5782\u6d8e\u3002",
+      "text": "\u5c3c\u6cca\u5c14\uff0c\u5168\u79f0\u5c3c\u6cca\u5c14\u8054\u90a6\u6c11\u4e3b\u5171\u548c\u56fd\uff0c\u662f\u5357\u4e9a\u5730\u533a\u7684\u4e00\u4e2a\u5185\u9646\u5c71\u56fd\uff0c\u5728 \u559c\u9a6c\u62c9\u96c5\u5c71\u8109\u5357\u9e93\uff0c\u4e1c\u5317\u9762\u4e0e\u4e2d\u56fd\u897f\u85cf\u81ea\u6cbb\u533a\u76f8\u90bb\uff0c\u5176\u4f59\u4e09\u9762\u540c\u5370\u5ea6\u63a5\u58e4\u3002 \u56fd\u571f\u9762\u79ef14.7\u4e07\u591a\u5e73\u65b9\u5343\u7c73\uff0c\u4eba\u53e3\u67092600\u591a\u4e07(2011\u5e74\u7684\u7edf\u8ba1)\u3002\u5c3c\u6cca\u5c14 \u867d\u662f\u4e00\u4e2a\u5c0f\u56fd\uff0c\u4f46\u56e0\u5730\u5904\u4e2d\u3001\u5370\u4e24\u4e2a\u5927\u56fd\u4e4b\u95f4\uff0c\u6218\u7565\u5730\u4f4d\u7279\u6b8a\u800c\u91cd\u8981\uff0c\u5386\u6765 \u53d7\u5230\u5370\u5ea6\u4ee5\u53ca\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u5927\u56fd\u5782\u6d8e\u3002"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 63.84611511230469,
+            "t": 659.8244685872396,
+            "r": 413.5198567708333,
+            "b": 535.0522924804687,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u5386\u53f2\u4e0a\u662f\u4e2a\u738b\u671d\u56fd\u5bb6\uff0c\u4ece19\u4e16\u7eaa\u521d\u5f00\u59cb\u6ca6\u4e3a\u82f1\u56fd\u6b96\u6c11\u5730\uff0c1923 \u5e74\u8131\u79bb\u82f1\u56fd\u72ec\u7acb\uff0c\u6b64\u540e\u957f\u671f\u53d7\u5370\u5ea6\u63a7\u5236\u3002\u5370\u5ea61947\u5e74\u72ec\u7acb\u540e\uff0c\u5728\u5357\u4e9a\u63a8\u884c \u6269\u5f20\u4e3b\u4e49\u653f\u7b56\uff0c\u5728\u7ecf\u6d4e\u3001\u653f\u6cbb\u3001\u519b\u4e8b\u3001\u5916\u4ea4\u7b49\u9886\u57df\uff0c\u5168\u9762\u52a0\u5f3a\u5bf9\u5c3c\u6cca\u5c14\u7684\u6e17 \u900f\u548c\u5e72\u6d89\uff0c\u5c3c\u6cca\u5c14\u51e0\u4e4e\u6ca6\u4e3a\u5370\u5ea6\u6b96\u6c11\u5730\u30021996\u5e74\u5c3c\u6cca\u5c14\u5185\u6218\u53d1\u751f\u4ee5\u540e\uff0c\u5370 \u5ea6\u653f\u5e9c\u4e3b\u52a8\u5411\u5c3c\u653f\u6743\u63d0\u4f9b\u6b66\u5668\u3001\u7269\u8d44\u7b49\u63f4\u52a9\uff0c\u5e2e\u52a9\u7687\u5bb6\u519b\u961f\u9547\u538b\u5c3c\u5171 (\u6bdb)\u3002\u5c3d\u7ba1\u5c3c\u6cca\u5c142006\u5e74\u5b9e\u73b0\u4e86\u548c\u8c08\uff0c\u56fd\u5185\u5c40\u52bf\u8d8b\u5411\u7a33\u5b9a\uff0c\u56fd\u5bb6\u5f00\u59cb\u8d70\u4e0a \u6c11\u4e3b\u5171\u548c\u4e4b\u8def\uff0c\u4f46\u5370\u5ea6\u6269\u5f20\u4e3b\u4e49\u52bf\u529b\u4ecd\u5949\u884c\u6253\u538b\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u65b9\u9488\uff0c\u79ef\u6781 \u6276\u690d\u5c3c\u56fd\u5185\u4eb2\u5370\u52bf\u529b\uff0c\u5e2e\u52a9\u4eb2\u5370\u653f\u515a\u4e0a\u53f0\u3002\u8fd9\u4e00\u653f\u7b56\u81f3\u4eca\u672a\u53d8\u3002",
+      "text": "\u5c3c\u6cca\u5c14\u5386\u53f2\u4e0a\u662f\u4e2a\u738b\u671d\u56fd\u5bb6\uff0c\u4ece19\u4e16\u7eaa\u521d\u5f00\u59cb\u6ca6\u4e3a\u82f1\u56fd\u6b96\u6c11\u5730\uff0c1923 \u5e74\u8131\u79bb\u82f1\u56fd\u72ec\u7acb\uff0c\u6b64\u540e\u957f\u671f\u53d7\u5370\u5ea6\u63a7\u5236\u3002\u5370\u5ea61947\u5e74\u72ec\u7acb\u540e\uff0c\u5728\u5357\u4e9a\u63a8\u884c \u6269\u5f20\u4e3b\u4e49\u653f\u7b56\uff0c\u5728\u7ecf\u6d4e\u3001\u653f\u6cbb\u3001\u519b\u4e8b\u3001\u5916\u4ea4\u7b49\u9886\u57df\uff0c\u5168\u9762\u52a0\u5f3a\u5bf9\u5c3c\u6cca\u5c14\u7684\u6e17 \u900f\u548c\u5e72\u6d89\uff0c\u5c3c\u6cca\u5c14\u51e0\u4e4e\u6ca6\u4e3a\u5370\u5ea6\u6b96\u6c11\u5730\u30021996\u5e74\u5c3c\u6cca\u5c14\u5185\u6218\u53d1\u751f\u4ee5\u540e\uff0c\u5370 \u5ea6\u653f\u5e9c\u4e3b\u52a8\u5411\u5c3c\u653f\u6743\u63d0\u4f9b\u6b66\u5668\u3001\u7269\u8d44\u7b49\u63f4\u52a9\uff0c\u5e2e\u52a9\u7687\u5bb6\u519b\u961f\u9547\u538b\u5c3c\u5171 (\u6bdb)\u3002\u5c3d\u7ba1\u5c3c\u6cca\u5c142006\u5e74\u5b9e\u73b0\u4e86\u548c\u8c08\uff0c\u56fd\u5185\u5c40\u52bf\u8d8b\u5411\u7a33\u5b9a\uff0c\u56fd\u5bb6\u5f00\u59cb\u8d70\u4e0a \u6c11\u4e3b\u5171\u548c\u4e4b\u8def\uff0c\u4f46\u5370\u5ea6\u6269\u5f20\u4e3b\u4e49\u52bf\u529b\u4ecd\u5949\u884c\u6253\u538b\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u65b9\u9488\uff0c\u79ef\u6781 \u6276\u690d\u5c3c\u56fd\u5185\u4eb2\u5370\u52bf\u529b\uff0c\u5e2e\u52a9\u4eb2\u5370\u653f\u515a\u4e0a\u53f0\u3002\u8fd9\u4e00\u653f\u7b56\u81f3\u4eca\u672a\u53d8\u3002"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 63.42329406738281,
+            "t": 530.3839575195312,
+            "r": 413.0970458984375,
+            "b": 422.5875911458333,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "\u5c3c\u6cca\u5c14\u52a8\u8361\u5c40\u52bf\u4e5f\u5f15\u8d77\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u56fd\u5bb6\u7684\u5174\u8da3\u3002\u7f8e\u56fd\u501f\u5e2e\u52a9\u5c3c\u653f\u5e9c\u6e05 \u527f\u5c3c\u5171\uff08\u6bdb\uff09\u4e4b\u673a\uff0c\u5c06\u81ea\u5df1\u7684\u653f\u6cbb\u3001\u519b\u4e8b\u3001\u5916\u4ea4\u7b49\u89e6\u89d2\u4f38\u5411\u5c3c\u6cca\u5c14\u30022004 \u5e744\u6708\uff0c\u7f8e\u56fd\u56fd\u52a1\u9662\u6b63\u5f0f\u5c06\u5c3c\u5171\uff08\u6bdb\uff09\u53ca\u5176\u9886\u5bfc\u7684\u6b66\u88c5\u5217\u5165\u5883\u5916\"\u6050\u6016\u7ec4 \u7ec7\"\u540d\u5355\u3002\u7f8e\u56fd\u653f\u5e9c\u8fd8\u5411\u5c3c\u6cca\u5c14\u653f\u5e9c\u63d0\u4f9b\u8d44\u91d1\u3001\u6b66\u5668\u3001\u4eba\u5458\u7b49\u65b9\u9762\u5927\u91cf\u5e2e \u52a9\u3002\u82f1\u56fd\u4e5f\u7d27\u968f\u7f8e\u56fd\u652f\u6301\u5c3c\u653f\u5e9c\"\u53cd\u6050\"\u884c\u52a8\uff0c\u63d0\u4f9b\u8d44\u91d1\u3001\u6b66\u5668\u7b49\u65b9\u9762\u7684 \u63f4\u52a9\u3002\u5728\u5c3c\u6cca\u5c14\u5b9e\u73b0\u548c\u8c08\u3001\u5c3c\u5171\uff08\u6bdb\uff09\u6210\u4e3a\u5408\u6cd5\u653f\u515a\u4ee5\u540e\uff0c\u7f8e\u3001\u82f1\u7b49\u56fd\u4ecd \u4e0d\u653e\u5f03\u654c\u89c6\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u653f\u7b56\uff0c\u7aed\u529b\u57f9\u690d\u62c9\u62e2\u5c3c\u56fd\u5185\u4eb2\u897f\u65b9\u52bf\u529b\u3002",
+      "text": "\u5c3c\u6cca\u5c14\u52a8\u8361\u5c40\u52bf\u4e5f\u5f15\u8d77\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u56fd\u5bb6\u7684\u5174\u8da3\u3002\u7f8e\u56fd\u501f\u5e2e\u52a9\u5c3c\u653f\u5e9c\u6e05 \u527f\u5c3c\u5171\uff08\u6bdb\uff09\u4e4b\u673a\uff0c\u5c06\u81ea\u5df1\u7684\u653f\u6cbb\u3001\u519b\u4e8b\u3001\u5916\u4ea4\u7b49\u89e6\u89d2\u4f38\u5411\u5c3c\u6cca\u5c14\u30022004 \u5e744\u6708\uff0c\u7f8e\u56fd\u56fd\u52a1\u9662\u6b63\u5f0f\u5c06\u5c3c\u5171\uff08\u6bdb\uff09\u53ca\u5176\u9886\u5bfc\u7684\u6b66\u88c5\u5217\u5165\u5883\u5916\"\u6050\u6016\u7ec4 \u7ec7\"\u540d\u5355\u3002\u7f8e\u56fd\u653f\u5e9c\u8fd8\u5411\u5c3c\u6cca\u5c14\u653f\u5e9c\u63d0\u4f9b\u8d44\u91d1\u3001\u6b66\u5668\u3001\u4eba\u5458\u7b49\u65b9\u9762\u5927\u91cf\u5e2e \u52a9\u3002\u82f1\u56fd\u4e5f\u7d27\u968f\u7f8e\u56fd\u652f\u6301\u5c3c\u653f\u5e9c\"\u53cd\u6050\"\u884c\u52a8\uff0c\u63d0\u4f9b\u8d44\u91d1\u3001\u6b66\u5668\u7b49\u65b9\u9762\u7684 \u63f4\u52a9\u3002\u5728\u5c3c\u6cca\u5c14\u5b9e\u73b0\u548c\u8c08\u3001\u5c3c\u5171\uff08\u6bdb\uff09\u6210\u4e3a\u5408\u6cd5\u653f\u515a\u4ee5\u540e\uff0c\u7f8e\u3001\u82f1\u7b49\u56fd\u4ecd \u4e0d\u653e\u5f03\u654c\u89c6\u5c3c\u5171\uff08\u6bdb\uff09\u7684\u653f\u7b56\uff0c\u7aed\u529b\u57f9\u690d\u62c9\u62e2\u5c3c\u56fd\u5185\u4eb2\u897f\u65b9\u52bf\u529b\u3002"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 63.42329406738281,
+            "t": 417.9192154947917,
+            "r": 413.0970458984375,
+            "b": 325.40106770833336,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u56fd\u5bb6\u5982\u6b64\u51ef\u89ce\u4e00\u4e2a\u8fdc\u5728\u5357\u4e9a\u7684\u5c0f\u56fd\uff0c\u662f\u9189\u7fc1\u4e4b\u610f\u4e0d\u5728\u9152\u3002 \u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u4eba\u666e\u62c9\u660c\u8fbe\u66fe\u660e\u786e\u6307\u51fa\uff0c\"\u7f8e\u56fd\u6709\u4e2a\u5b8f\u5927\u7684\u6218\u7565\uff0c\u5e03\u4ec0\uff08\u6307 \u5c0f\u5e03\u4ec0\u3002\u2014\u2014\u5f15\u8005\u6ce8\uff09\u628a\u4e2d\u56fd\u548c\u5370\u5ea6\u770b\u4f5c\u7ecf\u6d4e\u5927\u56fd\u751a\u81f3\u662f\u5a01\u80c1\u3002\u4e5f\u8bb8\u4ed6\u4eec \u770b\u5230\u5c3c\u6cca\u5c14\u4f4d\u4e8e\u8fd9\u4e24\u4e2a\u5927\u56fd\u4e4b\u95f4\uff0c\u5e76\u76f8\u4fe1\u5982\u679c\u8fd9\u513f\u6709\u4e0d\u540c\u4ed6\u4eec\u7684\u6b65\u8c03\u4fdd\u6301\u4e00 \u81f4\u7684\u52bf\u529b\u5b58\u5728\uff0c\u53ef\u80fd\u4f1a\u51fa\u73b0\u95ee\u9898\u3002\u56e0\u6b64\uff0c\u7f8e\u56fd\u662f\u4ece\u6218\u7565\u7684\u773c\u5149\u770b\u5f85\u5c3c\u6cca\u5c14 \u7684\uff0c\u800c\u5e76\u4e0d\u662f\u5b83\u5728\u8fd9\u513f\u6709\u4ec0\u4e48\u7ecf\u6d4e\u5229\u76ca\u3002\u653f\u6cbb\u63a7\u5236\u662f\u5173\u952e\"\u2460\u3002",
+      "text": "\u7f8e\u3001\u82f1\u7b49\u897f\u65b9\u56fd\u5bb6\u5982\u6b64\u51ef\u89ce\u4e00\u4e2a\u8fdc\u5728\u5357\u4e9a\u7684\u5c0f\u56fd\uff0c\u662f\u9189\u7fc1\u4e4b\u610f\u4e0d\u5728\u9152\u3002 \u5c3c\u5171\uff08\u6bdb\uff09\u9886\u5bfc\u4eba\u666e\u62c9\u660c\u8fbe\u66fe\u660e\u786e\u6307\u51fa\uff0c\"\u7f8e\u56fd\u6709\u4e2a\u5b8f\u5927\u7684\u6218\u7565\uff0c\u5e03\u4ec0\uff08\u6307 \u5c0f\u5e03\u4ec0\u3002\u2014\u2014\u5f15\u8005\u6ce8\uff09\u628a\u4e2d\u56fd\u548c\u5370\u5ea6\u770b\u4f5c\u7ecf\u6d4e\u5927\u56fd\u751a\u81f3\u662f\u5a01\u80c1\u3002\u4e5f\u8bb8\u4ed6\u4eec \u770b\u5230\u5c3c\u6cca\u5c14\u4f4d\u4e8e\u8fd9\u4e24\u4e2a\u5927\u56fd\u4e4b\u95f4\uff0c\u5e76\u76f8\u4fe1\u5982\u679c\u8fd9\u513f\u6709\u4e0d\u540c\u4ed6\u4eec\u7684\u6b65\u8c03\u4fdd\u6301\u4e00 \u81f4\u7684\u52bf\u529b\u5b58\u5728\uff0c\u53ef\u80fd\u4f1a\u51fa\u73b0\u95ee\u9898\u3002\u56e0\u6b64\uff0c\u7f8e\u56fd\u662f\u4ece\u6218\u7565\u7684\u773c\u5149\u770b\u5f85\u5c3c\u6cca\u5c14 \u7684\uff0c\u800c\u5e76\u4e0d\u662f\u5b83\u5728\u8fd9\u513f\u6709\u4ec0\u4e48\u7ecf\u6d4e\u5229\u76ca\u3002\u653f\u6cbb\u63a7\u5236\u662f\u5173\u952e\"\u2460\u3002"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 63.42329406738281,
+            "t": 321.1571305338541,
+            "r": 411.8285725911458,
+            "b": 293.9958349609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u4e2d\u56fd\u540c\u5c3c\u6cca\u5c14\u662f\u5c71\u6c34\u76f8\u8fde\u7684\u4eb2\u5bc6\u90bb\u90a6\uff0c\u4e24\u56fd\u6709\u7740\u5386\u53f2\u60a0\u4e45\u7684\u7ecf\u6d4e\u6587\u5316\u4ea4 \u6d41\uff0c\u4e24\u56fd\u4eba\u6c11\u548c\u7766\u5171\u5904\u3001\u4e16\u4ee3\u53cb\u597d\u3002\u65b0\u4e2d\u56fd\u6210\u7acb\u4ee5\u540e\uff0c\u4e2d\u56fd\u515a\u548c\u56fd\u5bb6\u9886\u5bfc\u4eba",
+      "text": "\u4e2d\u56fd\u540c\u5c3c\u6cca\u5c14\u662f\u5c71\u6c34\u76f8\u8fde\u7684\u4eb2\u5bc6\u90bb\u90a6\uff0c\u4e24\u56fd\u6709\u7740\u5386\u53f2\u60a0\u4e45\u7684\u7ecf\u6d4e\u6587\u5316\u4ea4 \u6d41\uff0c\u4e24\u56fd\u4eba\u6c11\u548c\u7766\u5171\u5904\u3001\u4e16\u4ee3\u53cb\u597d\u3002\u65b0\u4e2d\u56fd\u6210\u7acb\u4ee5\u540e\uff0c\u4e2d\u56fd\u515a\u548c\u56fd\u5bb6\u9886\u5bfc\u4eba"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 78.22206115722656,
+            "t": 271.5029150390625,
+            "r": 413.0970458984375,
+            "b": 236.7025,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            267
+          ]
+        }
+      ],
+      "orig": "\u2460 Siddharth Varadarajan: Multiparty Democracy in Nepal will Be Message to Indian Naxalites, The Hindu, February 10, 2006, http: //www. thehindu. com/todays-paper/tp-opinion/ quotmultipartydemocracy-in-nepal-will-be-message-to-indian-naxalitesquot/article3176255. ece.",
+      "text": "\u2460 Siddharth Varadarajan: Multiparty Democracy in Nepal will Be Message to Indian Naxalites, The Hindu, February 10, 2006, http: //www. thehindu. com/todays-paper/tp-opinion/ quotmultipartydemocracy-in-nepal-will-be-message-to-indian-naxalitesquot/article3176255. ece."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 417.7480875651042,
+            "t": 222.273056640625,
+            "r": 427.0501708984375,
+            "b": 211.23879557291662,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "3",
+      "text": "3"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.78777497866329,
+            "t": 564.2437511797473,
+            "r": 407.6404103391506,
+            "b": 237.29669294778637,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false,
+            "ref": {
+              "$ref": "#/groups/0"
+            }
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 1,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 46.061855571542004,
+            "t": 771.1579468760184,
+            "r": 395.4205619453584,
+            "b": 237.2998663612782,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false,
+            "ref": {
+              "$ref": "#/groups/1"
+            }
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 1,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "label": "document_index",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 62.07371137985127,
+            "t": 799.2567459298539,
+            "r": 444.6896792758199,
+            "b": 644.5257573888421,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false,
+            "ref": {
+              "$ref": "#/groups/2"
+            }
+          }
+        ],
+        "num_rows": 1,
+        "num_cols": 1,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.276,
+        "height": 841.89
+      },
+      "page_no": 6
+    }
+  }
+}

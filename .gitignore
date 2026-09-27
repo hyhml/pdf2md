@@ -1,5 +1,6 @@
 .venv
 .venv-mineru
+.venv-docling
 .mineru
 .cache
 .bootstrap

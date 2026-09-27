@@ -1,139 +1,106 @@
 # pdf2md
 
-这是一个可作为 Codex skill 安装的本地分层 PDF 文字提取工具：简单文件尽量走轻量路径，只有结果不可靠或版面复杂时才调用 MinerU。
+一个可作为 Codex skill 安装的本地分层 PDF 转 Markdown 工具。简单文件走快速路径；低置信度、扫描件或复杂版面使用 Docling，输出带明确 PDF 页码标记的结构化 Markdown。
 
-## 作为 Codex skill 安装
+## 处理层级
 
-仓库根目录就是 skill 根目录。安装后应能看到：
+| 层级 | 工具 | 用途 | 输出 |
+|---|---|---|---|
+| 0 | pypdf | PDF 已有可靠文字层 | 纯文本 Markdown |
+| 1 | RapidOCR + ONNX Runtime | 普通扫描件、只需轻量文字识别 | 纯文本 Markdown |
+| 2 | Docling + RapidOCR | 低置信度、目录、表格、标题、脚注或复杂版面 | 带 PDF 页码的结构化 Markdown |
 
-```text
-~/.codex/skills/pdf2md/SKILL.md
-```
+自动模式先检查文字层，再检查轻量 OCR 的覆盖率、置信度、异常字符和复杂版面；质量门槛未通过时升级到 Docling。每次处理都会写出 `*.report.json`，记录实际选择的层级和升级原因。
 
-可使用 Codex 的 skill 安装器从本仓库安装，或手动克隆：
+## 安装为 Codex skill
 
 ```bash
 git clone https://github.com/hyhml/pdf2md.git ~/.codex/skills/pdf2md
 cd ~/.codex/skills/pdf2md
+scripts/setup.sh --all
+```
+
+也可分开安装：
+
+```bash
 scripts/setup.sh --light
+scripts/setup.sh --strong
 ```
 
-安装完整本地强力层及标准模型：
-
-```bash
-scripts/setup.sh --strong --models standard
-```
-
-标准模型需要额外下载约数 GB 数据。执行后可通过 `$pdf2md` 显式调用；普通 PDF 转 Markdown/OCR 请求也可自动触发该 skill。
-
-## 分层策略
-
-| 层级 | 工具 | 用途 | 输出 |
-|---|---|---|---|
-| 0 | pypdf | PDF 已有可靠文字层时直接提取，速度最快 | 纯文本 Markdown |
-| 1 | RapidOCR + ONNX Runtime | 扫描件只做文字检测、方向判断和识别 | 纯文本 Markdown |
-| 2 | MinerU 4.x | 低置信度、疑似多栏、表格或表单 | 结构化 Markdown |
-
-轻量层默认采用 RapidOCR 3.9+ 内置的 PP-OCRv6 small 检测与识别模型。它不做表格重建、图片提取或格式还原，只保留文字。每次处理都会生成一个 `*.report.json`，记录实际选择的层级和判断依据。
-
-自动路由顺序：
-
-1. 检查现有文字层的页覆盖率、字符数量和乱码比例。
-2. 不合格时，以 220 DPI 渲染并用 RapidOCR 识别。
-3. 检查加权平均置信度、低置信文字占比、文字覆盖率和异常字符。
-4. 若质量不足，或检测到疑似多栏/表格版面，升级到 MinerU。
-5. 需要升级但 MinerU 不可用时，不会把低质量结果冒充成功；候选文本会保存为 `*.light.md`，命令返回错误。
-
-## 安装
-
-轻量层建议放在独立虚拟环境中：
-
-```bash
-cd pdf2md
-python3 -m venv .venv
-.venv/bin/pip install -e ".[light]"
-.venv/bin/pdf2md doctor
-```
-
-首次安装或检查 RapidOCR：
-
-```bash
-.venv/bin/rapidocr check
-```
-
-强力层单独安装 MinerU 4.x，并确保 `mineru-kit` 或 `mineru` 命令位于 `PATH`。使用 `uv tool` 可以避免与轻量环境发生依赖冲突：
-
-```bash
-uv tool install "mineru>=4.0,<5"
-mineru version --json
-```
-
-也可以像本项目当前配置一样，把 MinerU 安装在仓库根目录的
-`.venv-mineru` 中；路由器会自动发现。其他自定义位置可通过
-`PDF_OCR_MINERU_BIN` 指向可执行文件或其所在目录。
-
-若使用项目内模型目录，可执行：
-
-```bash
-MINERU_HOME="$PWD/.mineru" \
-  .venv-mineru/bin/mineru-kit models download --tier standard --source modelscope
-```
-
-只准备 OCR 和基础解析、希望节省磁盘时，可把 `standard` 改成 `basic`；
-本工具默认的强力层是 `standard`。
-
-MinerU 模型体积和算力需求明显高于轻量层，因此默认只在质量门槛触发时调用。
+- 轻量环境位于 `.venv/`。
+- Docling 独立环境位于 `.venv-docling/`，避免与轻量 OCR 依赖冲突。
+- Linux 下 setup 会先安装 CPU 版 PyTorch，再安装 Docling。
+- Docling 首次转换会下载版面模型；模型缓存在 skill 的 `.cache/` 下。
 
 ## 使用
 
-处理单个文件：
+检查运行环境：
 
 ```bash
-scripts/pdf2md scan.pdf
-scripts/pdf2md process scan.pdf -o output.md
+scripts/pdf2md doctor --json
+```
+
+使用自动路由：
+
+```bash
+scripts/pdf2md scan.pdf -o scan.md --json
+```
+
+明确使用 Docling：
+
+```bash
+scripts/pdf2md scan.pdf -o scan.md --mode strong --json
 ```
 
 批量处理：
 
 ```bash
-scripts/pdf2md batch ./pdfs -o ./markdown --recursive
+scripts/pdf2md batch ./pdfs -o ./markdown --recursive --mode strong --json
 ```
 
-强制指定层级：
+强解析采用以下本地配置：
 
-```bash
-scripts/pdf2md scan.pdf --mode light
-scripts/pdf2md scan.pdf --mode strong
+- Docling standard pipeline
+- RapidOCR 中文识别
+- full-page OCR
+- 表格结构识别
+- CPU 运行
+- 图片占位符模式
+
+强解析结果为每个 PDF 页面加入：
+
+```markdown
+<!-- PDF_PAGE: 1 -->
+
+# PDF 第 1 页
 ```
 
-调整判断门槛：
+这样可以从 Markdown 直接追溯到原 PDF 页码。
 
-```bash
-scripts/pdf2md scan.pdf \
-  --min-confidence 0.88 \
-  --max-low-confidence 0.15 \
-  --dpi 240
-```
-
-如果只关心全文文字、能接受多栏页按行交错，可关闭版面升级：
-
-```bash
-scripts/pdf2md scan.pdf --no-layout-escalation
-```
-
-## 输出说明
+## 输出
 
 以 `scan.pdf` 为例：
 
-- `scan.md`：最终文本或 Markdown。
-- `scan.md.report.json`：路由层级、质量指标和升级原因。
-- `scan.light.md`：只有需要升级但 MinerU 不可用时产生，是待人工检查的候选文本。
-
-默认阈值是稳健起点，不是通用真值。建议取一批自己的扫描件做抽样校对，再根据报告里的置信度分布调整参数。
+- `scan.md`：最终 Markdown。
+- `scan.md.report.json`：路由层级、质量指标、状态和错误信息。
+- `scan.light.md`：只有自动路由要求强解析但 Docling 不可用时才会保留的候选文本；它不是验证后的最终结果。
 
 ## 开发检查
 
 ```bash
-.venv/bin/pip install -e ".[light,dev]"
-.venv/bin/pytest
+python3 -m venv .venv-test
+.venv-test/bin/pip install -e ".[light,dev]"
+.venv-test/bin/pytest
 ```
+
+真实 Docling 冒烟测试：
+
+```bash
+scripts/setup.sh --strong
+PDF2MD_CLI="$PWD/.venv/bin/pdf2md" scripts/pdf2md sample.pdf \
+  -o sample.md --mode strong --json
+```
+
+## 基准测试
+
+`benchmarks/` 保存真实扫描 PDF 的工具横向测试报告、未经人工修改的工具输出和统一页码副本。虚拟环境、模型缓存和原始 PDF 不提交到仓库。

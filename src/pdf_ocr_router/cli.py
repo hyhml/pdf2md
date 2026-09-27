@@ -11,8 +11,8 @@ from pathlib import Path
 from .backends import (
     BackendFailure,
     BackendUnavailable,
+    docling_environment,
     find_executable,
-    mineru_environment,
 )
 from .models import RouterConfig
 from .router import PDFOCRRouter
@@ -35,14 +35,19 @@ def _add_routing_options(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--dpi", type=int, default=220, help="轻量 OCR 渲染 DPI（默认 220）")
     parser.add_argument("--min-confidence", type=float, default=0.86, help="OCR 加权平均置信度门槛")
     parser.add_argument("--max-low-confidence", type=float, default=0.20, help="低置信文字最大占比")
-    parser.add_argument("--no-layout-escalation", action="store_true", help="复杂版面不升级到 MinerU")
-    parser.add_argument("--strong-tier", choices=("basic", "standard", "advanced"), default="standard")
+    parser.add_argument("--no-layout-escalation", action="store_true", help="复杂版面不升级到 Docling")
+    parser.add_argument(
+        "--strong-tier",
+        choices=("basic", "standard", "advanced"),
+        default="standard",
+        help="兼容旧版的保留参数；Docling 后端当前忽略该值",
+    )
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="pdf-ocr",
-        description="先文本层、再轻量 OCR、最后 MinerU 的分层 PDF 处理工具",
+        description="先文本层、再轻量 OCR、最后 Docling 的分层 PDF 处理工具",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -70,28 +75,29 @@ def _doctor() -> dict[str, object]:
         name: importlib.util.find_spec(name) is not None
         for name in ("pypdf", "pypdfium2", "rapidocr", "onnxruntime")
     }
-    executables = {name: find_executable(name) for name in ("mineru-kit", "mineru")}
-    models_ready = False
-    model_check = "MinerU CLI 未安装"
-    if executables["mineru-kit"]:
+    executable = find_executable("docling")
+    executables = {"docling": executable}
+    version = "Docling CLI 未安装"
+    if executable:
         checked = subprocess.run(
-            [executables["mineru-kit"], "models", "verify", "--tier", "standard"],
+            [executable, "--version"],
             text=True,
             capture_output=True,
             check=False,
-            env=mineru_environment(),
+            env=docling_environment(),
         )
-        models_ready = checked.returncode == 0
-        model_check = (checked.stdout or checked.stderr).strip()
+        version = (checked.stdout or checked.stderr).strip()
     return {
         "native_text_ready": modules["pypdf"],
         "light_ocr_ready": all(modules[name] for name in ("pypdfium2", "rapidocr", "onnxruntime")),
-        "strong_cli_ready": any(executables.values()),
-        "strong_models_ready": models_ready,
-        "strong_parser_ready": any(executables.values()) and models_ready,
+        "strong_backend": "docling",
+        "strong_cli_ready": bool(executable),
+        "strong_models_ready": bool(executable),
+        "strong_parser_ready": bool(executable),
         "modules": modules,
         "executables": executables,
-        "model_check": model_check,
+        "model_check": "Docling 模型会在首次转换时下载并缓存",
+        "docling_version": version,
     }
 
 

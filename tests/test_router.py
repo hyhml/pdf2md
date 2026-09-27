@@ -33,7 +33,7 @@ class FakeStrong:
     def convert(self, _input_path: Path, output_path: Path, _tier: str):
         self.calls += 1
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text("# MinerU result\n", encoding="utf-8")
+        output_path.write_text("# Docling result\n", encoding="utf-8")
 
 
 def _pdf(tmp_path: Path) -> Path:
@@ -73,7 +73,7 @@ def test_router_uses_light_ocr_for_scan(tmp_path):
     assert strong.calls == 0
 
 
-def test_router_escalates_low_confidence_to_mineru(tmp_path):
+def test_router_escalates_low_confidence_to_docling(tmp_path):
     weak_line = OCRLine("低置信度识别结果虽然有文字但不可靠。", 0.40)
     weak = OCRDocument((OCRPage(1, 1000, 1400, (weak_line, weak_line)),))
     strong = FakeStrong()
@@ -85,4 +85,4 @@ def test_router_escalates_low_confidence_to_mineru(tmp_path):
     result = router.process(_pdf(tmp_path), tmp_path / "out.md")
     assert result.selected_stage == "strong"
     assert strong.calls == 1
-    assert (tmp_path / "out.md").read_text(encoding="utf-8").startswith("# MinerU")
+    assert (tmp_path / "out.md").read_text(encoding="utf-8").startswith("# Docling")

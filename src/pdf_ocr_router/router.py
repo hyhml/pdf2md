@@ -7,7 +7,7 @@ from pathlib import Path
 from .backends import (
     BackendUnavailable,
     LightBackend,
-    MinerUBackend,
+    DoclingBackend,
     NativeBackend,
     PyPDFTextBackend,
     RapidOCRBackend,
@@ -39,7 +39,7 @@ class PDFOCRRouter:
         self.config = config or RouterConfig()
         self.native_backend = native_backend or PyPDFTextBackend()
         self.light_backend = light_backend or RapidOCRBackend()
-        self.strong_backend = strong_backend or MinerUBackend()
+        self.strong_backend = strong_backend or DoclingBackend()
 
     @staticmethod
     def _write_text(path: Path, text: str) -> None:
@@ -118,7 +118,7 @@ class PDFOCRRouter:
                         self._write_text(fallback, light_document.text)
                         audit.fallback_output = str(fallback)
                     raise BackendUnavailable(
-                        "质量门槛要求升级到 MinerU，但 MinerU 尚未安装；"
+                        "质量门槛要求升级到 Docling，但 Docling 尚未安装；"
                         "低质量候选结果已保留（如有）"
                     )
                 self.strong_backend.convert(source, target, self.config.strong_tier)

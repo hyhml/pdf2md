@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pdf-ocr-router"
-version = "0.1.0"
-description = "Quality-gated PDF text extraction with RapidOCR and MinerU"
+version = "0.2.0"
+description = "Quality-gated PDF text extraction with RapidOCR and Docling"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,6 +17,10 @@ light = [
   "onnxruntime>=1.18,<2",
   "pypdfium2>=4.30,<6",
   "rapidocr>=3.9,<4",
+]
+strong = [
+  "docling>=2.130,<3",
+  "onnxruntime>=1.18,<2",
 ]
 dev = [
   "pytest>=8,<10",

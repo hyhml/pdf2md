@@ -1,4 +1,4 @@
 interface:
   display_name: "PDF to Markdown"
-  short_description: "本地分层 OCR 与 PDF 转 Markdown"
-  default_prompt: "Use $pdf2md to convert this PDF into reliable Markdown."
+  short_description: "Docling 驱动的本地分页 PDF 转 Markdown"
+  default_prompt: "Use $pdf2md with Docling to convert this PDF into page-traceable Markdown."

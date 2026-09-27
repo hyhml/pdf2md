@@ -8,6 +8,10 @@ if [[ -n "${PDF2MD_CLI:-}" && -x "${PDF2MD_CLI}" ]]; then
     exec "${PDF2MD_CLI}" "$@"
 fi
 
+# Prefer the source shipped with this skill even when the lightweight runtime
+# is a reused or symlinked virtual environment with an older editable install.
+export PYTHONPATH="$skill_dir/src${PYTHONPATH:+:$PYTHONPATH}"
+
 for candidate in \
     "$skill_dir/.venv/bin/pdf2md" \
     "$skill_dir/.venv/bin/pdf-ocr" \
