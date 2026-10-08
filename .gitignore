@@ -1,9 +1,15 @@
 .venv
 .venv-mineru
 .venv-docling
+.venv-formula-hybrid
+.venv-formula-unirec
 .mineru
 .cache
 .bootstrap
+.formula-bootstrap
+data/
+formula-hybrid/work/
+formula-hybrid/sample*-manual-audit.json
 __pycache__/
 *.py[cod]
 .pytest_cache/

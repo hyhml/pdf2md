@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from pdf_ocr_router.backends import DoclingBackend, docling_environment, project_root
+from pdf_ocr_router.backends import DoclingBackend, docling_environment
 
 
 def test_docling_command_uses_local_structural_pipeline(monkeypatch, tmp_path):
@@ -18,10 +18,24 @@ def test_docling_command_uses_local_structural_pipeline(monkeypatch, tmp_path):
     assert command[command.index("--device") + 1] == "cpu"
 
 
-def test_docling_environment_keeps_cache_inside_skill(monkeypatch):
+def test_docling_environment_uses_working_directory_cache(monkeypatch, tmp_path):
     monkeypatch.delenv("HF_HOME", raising=False)
     monkeypatch.delenv("XDG_CACHE_HOME", raising=False)
+    monkeypatch.delenv("PDF2MD_CACHE_DIR", raising=False)
+    monkeypatch.chdir(tmp_path)
     environment = docling_environment()
 
-    assert environment["HF_HOME"] == str(project_root() / ".cache" / "huggingface")
-    assert environment["XDG_CACHE_HOME"] == str(project_root() / ".cache" / "docling")
+    cache_root = tmp_path / ".cache" / "pdf2md"
+    assert environment["HF_HOME"] == str(cache_root / "huggingface")
+    assert environment["XDG_CACHE_HOME"] == str(cache_root / "docling")
+
+
+def test_docling_environment_accepts_explicit_cache(monkeypatch, tmp_path):
+    cache_root = tmp_path / "shared-cache"
+    monkeypatch.delenv("HF_HOME", raising=False)
+    monkeypatch.delenv("XDG_CACHE_HOME", raising=False)
+    monkeypatch.setenv("PDF2MD_CACHE_DIR", str(cache_root))
+    environment = docling_environment()
+
+    assert environment["HF_HOME"] == str(cache_root / "huggingface")
+    assert environment["XDG_CACHE_HOME"] == str(cache_root / "docling")

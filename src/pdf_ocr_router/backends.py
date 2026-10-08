@@ -25,9 +25,14 @@ def project_root() -> Path:
 
 def docling_environment() -> dict[str, str]:
     env = os.environ.copy()
-    root = project_root()
-    env.setdefault("HF_HOME", str(root / ".cache" / "huggingface"))
-    env.setdefault("XDG_CACHE_HOME", str(root / ".cache" / "docling"))
+    configured_cache = env.get("PDF2MD_CACHE_DIR")
+    cache_root = (
+        Path(configured_cache).expanduser()
+        if configured_cache
+        else Path.cwd() / ".cache" / "pdf2md"
+    ).resolve()
+    env.setdefault("HF_HOME", str(cache_root / "huggingface"))
+    env.setdefault("XDG_CACHE_HOME", str(cache_root / "docling"))
     return env
 
 

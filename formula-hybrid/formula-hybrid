@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+export PADDLE_PDX_CACHE_HOME="${PADDLE_PDX_CACHE_HOME:-$ROOT/.cache/paddlex}"
+export HF_HOME="${HF_HOME:-$ROOT/.cache/huggingface}"
+exec "$ROOT/.venv-formula-hybrid/bin/python" "$ROOT/formula-hybrid/formula_hybrid.py" "$@"

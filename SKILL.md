@@ -29,7 +29,9 @@ scripts/pdf2md doctor --json
 If dependencies or models are missing, explain what is missing. Run
 `scripts/setup.sh --strong` only when installation/model downloads are within
 the user's request or the user approves them. Docling downloads its layout
-models on first use and caches them locally.
+models on first use and caches them under `.cache/pdf2md` in the current
+working directory. Set `PDF2MD_CACHE_DIR` when a different writable cache
+location is needed.
 
 ## Convert
 
@@ -65,6 +67,30 @@ page:
 ```
 
 Do not remove these markers when the user asks to retain page numbers.
+
+## Estimate strong-mode runtime
+
+Treat runtime estimates as ranges because scan resolution, page complexity,
+OCR coverage, model warm-up, CPU, and available memory all matter. For a
+strong-mode job similar to the benchmark below, use about 4.1 seconds per page
+as the measured baseline and add a 25–50% planning margin. Do not promise a
+five-minute completion time for a roughly 100 MB, 269-page scan on comparable
+hardware; communicate an initial estimate of about 20–30 minutes instead.
+
+Recorded local benchmark (2026-09-30):
+
+- Input: 102,974,450-byte PDF, 269 pages, structurally complex Chinese scan.
+- Mode/backend: `strong`, Docling 2.130.0 with full-page RapidOCR on CPU.
+- Host: WSL2, Intel Core i7-12700H (20 logical CPUs), 7.6 GiB RAM.
+- Successful conversion: 1,108.12 seconds (18 minutes 28 seconds), or 4.12
+  seconds per page; peak RSS was 5,962,412 KiB.
+- A preceding cache-permission failure consumed another 13.90 seconds. Keep
+  model/cache setup failures separate from the successful conversion time when
+  reporting elapsed time.
+
+Use this benchmark only for comparable strong-mode documents. Prefer newer
+local observations when available, and widen the estimate for larger images,
+more complex layouts, model downloads, slower CPUs, or memory pressure.
 
 ## Verify and report
 
